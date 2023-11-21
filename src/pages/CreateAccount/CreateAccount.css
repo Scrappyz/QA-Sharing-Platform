@@ -1,0 +1,224 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 128rem;
+}.CreateAccount-edP {
+  box-sizing: border-box;
+  padding: 5.2rem 47.2rem 15.3rem 47.2rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #18191a;
+}
+.CreateAccount-edP .logo-ALq {
+  margin: 0rem 0rem 1.4rem 0.1rem;
+  width: 8.1rem;
+  height: 8.7rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.CreateAccount-edP .sign-up-to-our-website-name-HgM {
+  margin: 0rem 0rem 1.5rem 0.1rem;
+  text-align: center;
+  font-size: 1.8854rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.CreateAccount-edP .form-C2d {
+  margin-bottom: 1.5rem;
+  box-sizing: border-box;
+  padding: 2.1rem 2rem 2.2rem 1.7rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #242526;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.CreateAccount-edP .form-C2d .email-79b {
+  margin: 0rem 0rem 1rem 0.3rem;
+  width: 29.6rem;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.CreateAccount-edP .form-C2d .email-79b .text-3ow {
+  margin-bottom: 0.6rem;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.2125;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.CreateAccount-edP .form-C2d .email-79b .shape-AtZ {
+  width: 100%;
+  height: 3rem;
+  border: solid 0.1rem #3a3b3c;
+  box-sizing: border-box;
+  background-color: #18191a;
+  border-radius: 0.5rem;
+}
+.CreateAccount-edP .form-C2d .username-tpZ {
+  margin-bottom: 1.2rem;
+  box-sizing: border-box;
+  padding-left: 0.15rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.CreateAccount-edP .form-C2d .username-tpZ .text-dXF {
+  margin-bottom: 0.6rem;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.2125;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.CreateAccount-edP .form-C2d .username-tpZ .shape-xZX {
+  margin-left: 0.15rem;
+  width: 29.6rem;
+  height: 3rem;
+  border: solid 0.1rem #3a3b3c;
+  box-sizing: border-box;
+  background-color: #18191a;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.CreateAccount-edP .form-C2d .new-password-ruo {
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  padding-left: 0.2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.CreateAccount-edP .form-C2d .new-password-ruo .text-1Xo {
+  margin-bottom: 0.6rem;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.2125;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.CreateAccount-edP .form-C2d .new-password-ruo .shape-La5 {
+  margin-left: 0.1rem;
+  width: 29.6rem;
+  height: 3rem;
+  border: solid 0.1rem #3a3b3c;
+  box-sizing: border-box;
+  background-color: #18191a;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.CreateAccount-edP .form-C2d .confirm-password-EfT {
+  margin-bottom: 2.3rem;
+  box-sizing: border-box;
+  padding-left: 0.05rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.CreateAccount-edP .form-C2d .confirm-password-EfT .text-BKo {
+  margin-bottom: 0.6rem;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.2125;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.CreateAccount-edP .form-C2d .confirm-password-EfT .shape-v2V {
+  margin-left: 0.25rem;
+  width: 29.6rem;
+  height: 3rem;
+  border: solid 0.1rem #3a3b3c;
+  box-sizing: border-box;
+  background-color: #18191a;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.CreateAccount-edP .form-C2d .send-code-dBo {
+  margin-left: 0.3rem;
+  width: 29.6rem;
+  height: 3rem;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem #3a3b3c;
+  box-sizing: border-box;
+  background-color: #18191a;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.CreateAccount-edP .already-have-account-dLD {
+  width: 100%;
+  height: 2.9rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #242526;
+  border-radius: 0.6rem;
+  flex-shrink: 0;
+}
+.CreateAccount-edP .already-have-account-dLD .already-have-account-dLD-sub-1 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+}
