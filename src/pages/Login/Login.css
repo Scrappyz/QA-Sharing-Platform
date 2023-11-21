@@ -1,0 +1,161 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 128rem;
+}.Login-hGM {
+  box-sizing: border-box;
+  padding: 9.5rem 47.2rem 20.6rem 47.2rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #18191a;
+}
+.Login-hGM .logo-Pus {
+  margin: 0rem 0rem 2.4rem 0.1rem;
+  width: 8.1rem;
+  height: 8.7rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.Login-hGM .sign-in-to-website-name-HkM {
+  margin: 0rem 0rem 1.5rem 0.1rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.Login-hGM .form-ktq {
+  margin-bottom: 1.6rem;
+  box-sizing: border-box;
+  padding: 2.8rem 2rem 2.3rem 1.7rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #242526;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.Login-hGM .form-ktq .email-4ed {
+  margin: 0rem 0rem 1.1rem 0.3rem;
+  width: 29.6rem;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.Login-hGM .form-ktq .email-4ed .text-145 {
+  margin-bottom: 0.6rem;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.2125;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.Login-hGM .form-ktq .email-4ed .shape-vwj {
+  width: 100%;
+  height: 3rem;
+  border: solid 0.1rem #3a3b3c;
+  box-sizing: border-box;
+  background-color: #18191a;
+  border-radius: 0.5rem;
+}
+.Login-hGM .form-ktq .password-qYu {
+  margin-bottom: 2.3rem;
+  box-sizing: border-box;
+  padding-left: 0.3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.Login-hGM .form-ktq .password-qYu .text-Ar5 {
+  margin-bottom: 0.6rem;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.2125;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.Login-hGM .form-ktq .password-qYu .shape-u2y {
+  width: 100%;
+  height: 3rem;
+  border: solid 0.1rem #3a3b3c;
+  box-sizing: border-box;
+  background-color: #18191a;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.Login-hGM .form-ktq .sign-in-E5F {
+  margin-left: 0.3rem;
+  width: 29.6rem;
+  height: 3rem;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem #3a3b3c;
+  box-sizing: border-box;
+  background-color: #18191a;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.Login-hGM .verify-3oP {
+  width: 100%;
+  height: 2.9rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #242526;
+  border-radius: 0.6rem;
+  flex-shrink: 0;
+}
+/* .Login-hGM .verify-3oP .verify-3oP-sub-0 {
+} */
+.Login-hGM .verify-3oP .verify-3oP-sub-1 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+}
