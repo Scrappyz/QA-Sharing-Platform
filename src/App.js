@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import Home from "./pages/Home/Home.js";
 import Profile from './pages/Profile/Profile.js';
@@ -9,8 +9,13 @@ import AddQuestion from './pages/AddQuestion/AddQuestion.js';
 
 function App() {
     return (
-        <AddQuestion />
-    );
+        <BrowserRouter>
+            <Routes>
+                <Route index element={<Home />} />
+                <Route path="/profile" element={<Profile />} />
+            </Routes>
+        </BrowserRouter>   
+    )
 }
 
 export default App;

@@ -1,7 +1,10 @@
 import React from 'react';
+import { useNavigate } from "react-router-dom";
 import "./Home.css";
 
 function Home() {
+    const navigate = useNavigate();
+
     return (
         <div class="Home-keD">
             <div class="main-JQq">
@@ -87,7 +90,8 @@ function Home() {
             <div class="header-eN5">
                 <p class="website-name-82M">[Website Name]</p>
                 <div class="search-bar-RXF">Search</div>
-                <p class="profile-Tyj">Profile</p>
+                {/* <p class="profile-Tyj">Profile</p> */}
+                <button class="profile-Tyj" onClick={() => navigate("/profile")}>Profile</button>
             </div>
         </div>
     );
