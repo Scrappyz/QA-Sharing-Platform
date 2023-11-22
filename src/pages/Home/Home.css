@@ -42,37 +42,55 @@ body {
   flex-shrink: 0;
 }
 .Home-keD .main-JQq .sidebar-left-2bj .Home-wTo {
-  margin-right: 0.15rem;
+  border: none;
   text-align: center;
+  padding: 10px 150px;
   font-size: 2.5rem;
   font-weight: 400;
   line-height: 1.2125;
   color: #ffffff;
+  background: none;
   font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
+}
+.Home-keD .main-JQq .sidebar-left-2bj .Home-wTo:hover {
+  background-color:#3a3b3c;
+  transition: 0.2s;
 }
 .Home-keD .main-JQq .sidebar-left-2bj .users-TBF {
-  margin-right: 0.15rem;
+  border: none;
   text-align: center;
+  padding: 10px 120px;
   font-size: 2.5rem;
   font-weight: 400;
   line-height: 1.2125;
   color: #ffffff;
+  background: none;
   font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
 }
+.Home-keD .main-JQq .sidebar-left-2bj .users-TBF:hover {
+  background-color:#3a3b3c;
+  transition: 0.2s;
+}
 .Home-keD .main-JQq .sidebar-left-2bj .saves-b2Z {
-  margin-left: 0.05rem;
+  border: none;
   text-align: center;
+  padding: 10px 120px;
   font-size: 2.5rem;
   font-weight: 400;
   line-height: 1.2125;
   color: #ffffff;
+  background: none;
   font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
+}
+.Home-keD .main-JQq .sidebar-left-2bj .saves-b2Z:hover {
+  background-color:#3a3b3c;
+  transition: 0.2s;
 }
 .Home-keD .main-JQq .auto-group-uvxp-WQR {
   box-sizing: border-box;
@@ -681,17 +699,31 @@ body {
 }
 .Home-keD .main-JQq .sidebar-right-Mtm {
   box-sizing: border-box;
-  padding: 3.3rem 5.6rem 3.3rem 5.5rem;
-  height: 66.4rem;
+  padding: 4.3rem 11rem 58.2rem 8.65rem;
+  width: 24.8rem;
+  row-gap: 2.3rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #18191a;
+  flex-shrink: 0;
+}
+.Home-keD .main-JQq .sidebar-right-Mtm .ask-question {
+  border: none;
   text-align: center;
+  padding: 10px 100px;
   font-size: 2.5rem;
   font-weight: 400;
   line-height: 1.2125;
   color: #ffffff;
+  background: none;
   font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
-  background-color: #18191a;
   flex-shrink: 0;
+}
+.Home-keD .main-JQq .sidebar-right-Mtm .ask-question:hover {
+  background-color:#3a3b3c;
+  transition: 0.2s;
 }
 .Home-keD .header-eN5 {
   box-sizing: border-box;

@@ -9,9 +9,9 @@ function Home() {
         <div className="Home-keD">
             <div className="main-JQq">
                 <div className="sidebar-left-2bj">
-                <p className="Home-wTo">Home</p>
-                <p className="users-TBF">Users</p>
-                <p className="saves-b2Z">Saves</p>
+                    <button className="Home-wTo" onClick={() => navigate("/")}>Home</button>
+                    <button className="users-TBF" onClick={() => navigate("/users")}>Users</button>
+                    <button className="saves-b2Z" onClick={() => navigate("/saves")}>Saves</button>
                 </div>
                 <div className="auto-group-uvxp-WQR">
                     <div className="auto-group-jp3s-rDP">
@@ -85,7 +85,9 @@ function Home() {
                     </div>
                 </div>
                 </div>
-                <div className="sidebar-right-Mtm">Ask Question</div>
+                <div className="sidebar-right-Mtm">
+                    <button className="ask-question" onClick={() => navigate("/askquestion")}>Ask Question</button>
+                </div>
             </div>
             <div className="header-eN5">
                 <p className="website-name-82M">[Website Name]</p>

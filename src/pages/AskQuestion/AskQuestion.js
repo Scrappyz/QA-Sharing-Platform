@@ -1,20 +1,20 @@
 import React from "react";
-import "./AddQuestion.css";
+import "./AskQuestion.css";
 
-function AddQuestion() {
+function AskQuestion() {
     return (
-        <div className="AddQuestion-QFK">
+        <div className="AskQuestion-QFK">
             <div className="main-ccH">
                 <div className="selection-F2y">
                 <div className="auto-group-eik3-9u3">
-                    <div className="AddQuestion-4WD">Add Question</div>
+                    <div className="AskQuestion-4WD">Add Question</div>
                     <img className="line-2-j6Z" src="REPLACE_IMAGE:36:690"/>
                 </div>
                 <div className="line-1-ejK">
                 </div>
                 <div className="create-post-b8m">Create Post</div>
                 </div>
-                <div className="AddQuestion-WFj">Add Question</div>
+                <div className="AskQuestion-WFj">Add Question</div>
                 <div className="title-1TP">
                 <div className="title-v4Z">Title</div>
                 <div className="shape-qBX">
@@ -58,4 +58,4 @@ function AddQuestion() {
     );
 }
 
-export default AddQuestion;
+export default AskQuestion;
