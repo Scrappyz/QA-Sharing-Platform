@@ -6,92 +6,91 @@ function Home() {
     const navigate = useNavigate();
 
     return (
-        <div class="Home-keD">
-            <div class="main-JQq">
-                <div class="sidebar-left-2bj">
-                <p class="Home-wTo">Home</p>
-                <p class="users-TBF">Users</p>
-                <p class="saves-b2Z">Saves</p>
+        <div className="Home-keD">
+            <div className="main-JQq">
+                <div className="sidebar-left-2bj">
+                <p className="Home-wTo">Home</p>
+                <p className="users-TBF">Users</p>
+                <p className="saves-b2Z">Saves</p>
                 </div>
-                <div class="auto-group-uvxp-WQR">
-                    <div class="auto-group-jp3s-rDP">
-                        <div class="top-questions-n73">Top Questions</div>
-                        <div class="filter-tvm">
-                        <div class="trending-32y">Trending</div>
-                        <div class="top-VQm">Top</div>
-                        <div class="recent-kbb">Recent</div>
+                <div className="auto-group-uvxp-WQR">
+                    <div className="auto-group-jp3s-rDP">
+                        <div className="top-questions-n73">Top Questions</div>
+                        <div className="filter-tvm">
+                        <div className="trending-32y">Trending</div>
+                        <div className="top-VQm">Top</div>
+                        <div className="recent-kbb">Recent</div>
                     </div>
                 </div>
-                <div class="questions-c81">
-                    <div class="question-1-9td">
-                        <div class="auto-group-msuz-5GV">
-                            <div class="votes-bVj">Votes</div>
-                            <div class="answers-jM3">Answers</div>
-                            <div class="views-fkV">Views</div>
+                <div className="questions-c81">
+                    <div className="question-1-9td">
+                        <div className="auto-group-msuz-5GV">
+                            <div className="votes-bVj">Votes</div>
+                            <div className="answers-jM3">Answers</div>
+                            <div className="views-fkV">Views</div>
                         </div>
-                        <div class="auto-group-8aks-c9w">
-                            <div class="question-1-YJV">Question 1</div>
-                            <div class="tags-TgM">Tags</div>
+                        <div className="auto-group-8aks-c9w">
+                            <div className="question-1-YJV">Question 1</div>
+                            <div className="tags-TgM">Tags</div>
                         </div>
-                        <div class="submitted-by--aky">Submitted by: </div>
+                        <div className="submitted-by--aky">Submitted by: </div>
                     </div>
-                    <div class="question-2-tWm">
-                    <div class="auto-group-mcxt-1bP">
-                        <div class="votes-Ldf">Votes</div>
-                        <div class="answers-fR3">Answers</div>
-                        <div class="views-Prq">Views</div>
+                    <div className="question-2-tWm">
+                    <div className="auto-group-mcxt-1bP">
+                        <div className="votes-Ldf">Votes</div>
+                        <div className="answers-fR3">Answers</div>
+                        <div className="views-Prq">Views</div>
                     </div>
-                    <div class="auto-group-vk7s-jQu">
-                        <div class="question-2-GQq">Question 2</div>
-                        <div class="tags-zLq">Tags</div>
+                    <div className="auto-group-vk7s-jQu">
+                        <div className="question-2-GQq">Question 2</div>
+                        <div className="tags-zLq">Tags</div>
                     </div>
-                    <div class="submitted-by--vVP">Submitted by: </div>
+                    <div className="submitted-by--vVP">Submitted by: </div>
                     </div>
-                    <div class="question-3-DjP">
-                    <div class="auto-group-nx29-8rM">
-                        <div class="votes-fbP">Votes</div>
-                        <div class="answers-CbK">Answers</div>
-                        <div class="views-Xdb">Views</div>
+                    <div className="question-3-DjP">
+                    <div className="auto-group-nx29-8rM">
+                        <div className="votes-fbP">Votes</div>
+                        <div className="answers-CbK">Answers</div>
+                        <div className="views-Xdb">Views</div>
                     </div>
-                    <div class="auto-group-utrb-UHw">
-                        <div class="question-3-cQ9">Question 3</div>
-                        <div class="tags-wxD">Tags</div>
+                    <div className="auto-group-utrb-UHw">
+                        <div className="question-3-cQ9">Question 3</div>
+                        <div className="tags-wxD">Tags</div>
                     </div>
-                    <div class="submitted-by--sqs">Submitted by: </div>
+                    <div className="submitted-by--sqs">Submitted by: </div>
                     </div>
-                    <div class="question-4-ACh">
-                    <div class="auto-group-sjh7-H2R">
-                        <div class="votes-Q73">Votes</div>
-                        <div class="answers-WQy">Answers</div>
-                        <div class="views-SpR">Views</div>
+                    <div className="question-4-ACh">
+                    <div className="auto-group-sjh7-H2R">
+                        <div className="votes-Q73">Votes</div>
+                        <div className="answers-WQy">Answers</div>
+                        <div className="views-SpR">Views</div>
                     </div>
-                    <div class="auto-group-mqh3-n7b">
-                        <div class="question-4-Jrd">Question 4</div>
-                        <div class="tags-RgM">Tags</div>
+                    <div className="auto-group-mqh3-n7b">
+                        <div className="question-4-Jrd">Question 4</div>
+                        <div className="tags-RgM">Tags</div>
                     </div>
-                    <div class="submitted-by--ZGm">Submitted by: </div>
+                    <div className="submitted-by--ZGm">Submitted by: </div>
                     </div>
-                    <div class="question-5-4UR">
-                    <div class="auto-group-qtqr-Pmb">
-                        <div class="votes-uV3">Votes</div>
-                        <div class="answers-3bF">Answers</div>
-                        <div class="views-BBf">Views</div>
+                    <div className="question-5-4UR">
+                    <div className="auto-group-qtqr-Pmb">
+                        <div className="votes-uV3">Votes</div>
+                        <div className="answers-3bF">Answers</div>
+                        <div className="views-BBf">Views</div>
                     </div>
-                    <div class="auto-group-wpos-Jn5">
-                        <div class="question-5-2i5">Question 5</div>
-                        <div class="tags-ZCD">Tags</div>
+                    <div className="auto-group-wpos-Jn5">
+                        <div className="question-5-2i5">Question 5</div>
+                        <div className="tags-ZCD">Tags</div>
                     </div>
-                    <div class="submitted-by--V5s">Submitted by: </div>
+                    <div className="submitted-by--V5s">Submitted by: </div>
                     </div>
                 </div>
                 </div>
-                <div class="sidebar-right-Mtm">Ask Question</div>
+                <div className="sidebar-right-Mtm">Ask Question</div>
             </div>
-            <div class="header-eN5">
-                <p class="website-name-82M">[Website Name]</p>
-                <div class="search-bar-RXF">Search</div>
-                {/* <p class="profile-Tyj">Profile</p> */}
-                <button class="profile-Tyj" onClick={() => navigate("/profile")}>Profile</button>
+            <div className="header-eN5">
+                <p className="website-name-82M">[Website Name]</p>
+                <div className="search-bar-RXF">Search</div>
+                <button className="profile-Tyj" onClick={() => navigate("/profile")}>Profile</button>
             </div>
         </div>
     );
