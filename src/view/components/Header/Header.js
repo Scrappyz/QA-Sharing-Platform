@@ -1,12 +1,17 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
+    const navigate = useNavigate();
+
     return (
-        <div className="header-eN5">
-            <p className="website-name-82M">[Website Name]</p>
-            <div className="search-bar-RXF">Search</div>
-            <button className="profile-Tyj" onClick={() => navigate("/profile")}>Profile</button>
-        </div>
+        <header>
+            <p className="website-name">[Website Name]</p>
+            <div className="search-bar">Search</div>
+            <button className="profile" onClick={() => navigate("/profile")}>Profile</button>
+        </header>
     )
 }
+
+export default Header;

@@ -1,4 +1,4 @@
-.header-eN5 {
+header {
     box-sizing: border-box;
     padding: 1.3rem 12.4rem 1.7rem 3.05rem;
     width: 126rem;
@@ -12,7 +12,7 @@
     background-color: #242526;
 }
 
-.header-eN5 .website-name-82M {
+header .website-name {
     margin: 0rem 16.85rem 0.1rem 0rem;
     text-align: center;
     font-size: 2rem;
@@ -24,7 +24,7 @@
     flex-shrink: 0;
 }
 
-.header-eN5 .search-bar-RXF {
+header .search-bar {
     margin: 0.1rem 15.5rem 0.2rem 0rem;
     box-sizing: border-box;
     padding: 0.288rem 2.62rem 0.113rem 2.62rem;
@@ -41,7 +41,7 @@
     flex-shrink: 0;
 }
 
-.header-eN5 .profile-Tyj {
+header .profile {
     margin-top: 0.1rem;
     text-align: center;
     font-size: 2rem;
@@ -55,7 +55,7 @@
     flex-shrink: 0;
 }
 
-.header-eN5 .profile-Tyj:hover {
+header .profile:hover {
     background-color:#3a3b3c;
     transition: 0.2s;
 }
