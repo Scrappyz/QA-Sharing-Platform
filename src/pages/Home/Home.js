@@ -6,7 +6,12 @@ function Home() {
     const navigate = useNavigate();
 
     return (
-        <div className="Home-keD">
+        <div className="frame">
+            <div className="header-eN5">
+                <p className="website-name-82M">[Website Name]</p>
+                <div className="search-bar-RXF">Search</div>
+                <button className="profile-Tyj" onClick={() => navigate("/profile")}>Profile</button>
+            </div>
             <div className="main-JQq">
                 <div className="sidebar-left-2bj">
                     <button className="Home-wTo" onClick={() => navigate("/")}>Home</button>
@@ -88,11 +93,6 @@ function Home() {
                 <div className="sidebar-right-Mtm">
                     <button className="ask-question" onClick={() => navigate("/askquestion")}>Ask Question</button>
                 </div>
-            </div>
-            <div className="header-eN5">
-                <p className="website-name-82M">[Website Name]</p>
-                <div className="search-bar-RXF">Search</div>
-                <button className="profile-Tyj" onClick={() => navigate("/profile")}>Profile</button>
             </div>
         </div>
     );
