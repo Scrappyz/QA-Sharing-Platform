@@ -1,23 +1,33 @@
 import React from "react";
 import "./Question.css";
 
-function Question() {
+function Question(props) {
     return (
         <div className="question-info-container">
             <div className="stats-container">
-                <div className="votes">Votes</div>
-                <div className="answers">Answers</div>
-                <div className="views">Views</div>
+                <div className="votes">{props.votes} votes</div>
+                <div className="answers">{props.answers} answers</div>
+                <div className="views">{props.views} views</div>
             </div>
             <div className="question-container">
-                <div className="question">Question 1</div>
+                <div className="question">{props.question}</div>
                 <ul className="tags-container">
-                    <li>Tag 1</li>
+                    {props.tags.map((t) => <li>#{t}</li>)}
                 </ul>
             </div>
-            <div className="submitted-by">Submitted by: </div>
+            <div className="submitted-by">Submitted by: {props.submittedBy}</div>
         </div>
     )
 }
+
+Question.defaultProps = {
+    votes: 0,
+    answers: 0,
+    views: 0,
+    question: "No Question",
+    tags: [],
+    submittedBy: "None"
+};
+
 
 export default Question;
