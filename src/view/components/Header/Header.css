@@ -1,0 +1,61 @@
+.header-eN5 {
+    box-sizing: border-box;
+    padding: 1.3rem 12.4rem 1.7rem 3.05rem;
+    width: 126rem;
+    height: 5.6rem;
+    position: absolute;
+    left: 0;
+    top: 0.1rem;
+    display: flex;
+    align-items: center;
+    border: solid 0.1rem #313030;
+    background-color: #242526;
+}
+
+.header-eN5 .website-name-82M {
+    margin: 0rem 16.85rem 0.1rem 0rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.header-eN5 .search-bar-RXF {
+    margin: 0.1rem 15.5rem 0.2rem 0rem;
+    box-sizing: border-box;
+    padding: 0.288rem 2.62rem 0.113rem 2.62rem;
+    width: 58.9rem;
+    height: calc(100% - 0.3rem);
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    background-color: #3a3b3c;
+    flex-shrink: 0;
+}
+
+.header-eN5 .profile-Tyj {
+    margin-top: 0.1rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 1.5rem;
+    border: none;
+    color: rgb(255, 245, 245);
+    background: none;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.header-eN5 .profile-Tyj:hover {
+    background-color:#3a3b3c;
+    transition: 0.2s;
+}

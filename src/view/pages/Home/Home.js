@@ -7,11 +7,7 @@ function Home() {
 
     return (
         <div className="frame">
-            <div className="header-eN5">
-                <p className="website-name-82M">[Website Name]</p>
-                <div className="search-bar-RXF">Search</div>
-                <button className="profile-Tyj" onClick={() => navigate("/profile")}>Profile</button>
-            </div>
+            <Header />
             <div className="main-JQq">
                 <div className="sidebar-left-2bj">
                     <button className="Home-wTo" onClick={() => navigate("/")}>Home</button>
