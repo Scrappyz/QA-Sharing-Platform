@@ -7,7 +7,8 @@ function Sidebar() {
 
     return (
         <div className="sidebar-container">
-            
+            <button className="home-btn">Pagong</button>
+            <button className="home-btn">Pagong</button>
         </div>
     )
 }
