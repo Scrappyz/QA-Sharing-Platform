@@ -21,6 +21,10 @@ body {
   padding: 0;
 }
 
+* {
+  font-family: Calibri;
+}
+
 .frame {
   height: 100vh;
   position: absolute;
@@ -74,7 +78,6 @@ body {
   font-weight: 400;
   line-height: 1.2125;
   color: #ffffff;
-  font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
 }
@@ -94,7 +97,6 @@ body {
   font-weight: 400;
   line-height: 1.2125;
   color: #ffffff;
-  font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
   display: flex;
   align-items: center;
@@ -114,7 +116,6 @@ body {
   font-weight: 400;
   line-height: 1.2125;
   color: #ffffff;
-  font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
   display: flex;
   align-items: center;
@@ -134,7 +135,6 @@ body {
   font-weight: 400;
   line-height: 1.2125;
   color: #ffffff;
-  font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
   display: flex;
   align-items: center;
@@ -177,7 +177,6 @@ body {
   line-height: 1.2125;
   color: #ffffff;
   background: none;
-  font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
 }

@@ -12,7 +12,7 @@ function Home() {
         <div className="frame">
             <Header />
             <div className="main-container">
-                <Sidebar />
+                <Sidebar buttons={["Home", "Users", "Saves"]} />
                 <div className="content-container">
                     <div className="menu-container">
                         <div className="top-questions">Top Questions</div>
@@ -33,7 +33,7 @@ function Home() {
                         <Question votes={1261} answers={30} views={5230} question="What the dog doing?" tags={["beast"]} submittedBy="Jimbo" />
                     </div>
                 </div>
-                <Sidebar />
+                <Sidebar buttons={["Ask Question"]} />
             </div>
         </div>
     );

@@ -12,59 +12,16 @@
     flex-shrink: 0;
 }
 
-.sidebar-container .home-btn {
+.sidebar-container .btn {
+    padding: 10px;
+    width: 100%;
+    background-color: transparent;
     border: none;
-    text-align: center;
-    padding: 10px 150px;
-    font-size: 2.5rem;
-    font-weight: 400;
-    line-height: 1.2125;
-    color: #ffffff;
-    background: none;
-    font-family: Inter, 'Source Sans Pro';
-    white-space: nowrap;
-    flex-shrink: 0;
+    font-size: 28px;
+    color: white;
 }
 
-.sidebar-container .home-btn:hover {
-    background-color:#3a3b3c;
-    transition: 0.2s;
-}
-
-.sidebar-container .users-btn {
-    border: none;
-    text-align: center;
-    padding: 10px 120px;
-    font-size: 2.5rem;
-    font-weight: 400;
-    line-height: 1.2125;
-    color: #ffffff;
-    background: none;
-    font-family: Inter, 'Source Sans Pro';
-    white-space: nowrap;
-    flex-shrink: 0;
-}
-
-.sidebar-container .users-btn:hover {
-    background-color:#3a3b3c;
-    transition: 0.2s;
-}
-
-.sidebar-container .saves-btn {
-    border: none;
-    text-align: center;
-    padding: 10px 120px;
-    font-size: 2.5rem;
-    font-weight: 400;
-    line-height: 1.2125;
-    color: #ffffff;
-    background: none;
-    font-family: Inter, 'Source Sans Pro';
-    white-space: nowrap;
-    flex-shrink: 0;
-}
-
-.sidebar-container .saves-btn:hover {
-    background-color:#3a3b3c;
-    transition: 0.2s;
+.sidebar-container .btn:hover {
+    background-color: #303030;
+    animation-duration: 0.5s;
 }
