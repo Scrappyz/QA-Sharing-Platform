@@ -1,13 +1,15 @@
 import React from "react";
 import "./Question.css";
+import {shortenNumber} from "../../../helpers/utility.js";
 
 function Question(props) {
+    
     return (
         <div className="question-info-container">
             <div className="stats-container">
-                <div className="votes">{props.votes} votes</div>
-                <div className="answers">{props.answers} answers</div>
-                <div className="views">{props.views} views</div>
+                <div className="votes">{shortenNumber(props.votes)} votes</div>
+                <div className="answers">{shortenNumber(props.answers)} answers</div>
+                <div className="views">{shortenNumber(props.views)} views</div>
             </div>
             <div className="question-container">
                 <div className="question">{props.question}</div>

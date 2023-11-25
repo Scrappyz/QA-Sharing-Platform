@@ -23,7 +23,7 @@ function Home() {
                         </ul>
                     </div>
                     <div className="questions-c81">
-                        <Question votes={1200} answers={30} views={5000} question="What the dog doing?" tags={["beast"]} submittedBy="Jimbo" />
+                        <Question votes={1261} answers={30} views={5430} question="What the dog doing?" tags={["beast"]} submittedBy="Jimbo" />
                         <div className="question-2-tWm">
                         <div className="auto-group-mcxt-1bP">
                             <div className="votes-Ldf">Votes</div>
