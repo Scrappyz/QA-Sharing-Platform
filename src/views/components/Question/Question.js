@@ -1,5 +1,6 @@
 import React from "react";
 import "./Question.css";
+import PropTypes from "prop-types";
 import {shortenNumber} from "../../../helpers/utility.js";
 
 function Question(props) {
@@ -22,6 +23,15 @@ function Question(props) {
     )
 }
 
+Question.propTypes = {
+    votes: PropTypes.number,
+    answers: PropTypes.number,
+    views: PropTypes.number,
+    question: PropTypes.string,
+    tags: PropTypes.array,
+    submittedBy: PropTypes.string
+}
+
 Question.defaultProps = {
     votes: 0,
     answers: 0,
@@ -30,6 +40,5 @@ Question.defaultProps = {
     tags: [],
     submittedBy: "None"
 };
-
 
 export default Question;

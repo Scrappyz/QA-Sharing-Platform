@@ -6,5 +6,5 @@ export function shortenNumber(n) {
         return n;
     }
 
-    return "unknown";
+    return n;
 }
