@@ -7,7 +7,7 @@ function Header() {
 
     return (
         <header>
-            <p className="website-name">[Website Name]</p>
+            <div className="website-name">[Website Name]</div>
             <div className="search-bar">Search</div>
             <button className="profile" onClick={() => navigate("/profile")}>Profile</button>
         </header>

@@ -34,6 +34,7 @@ body {
 
 .frame .main-container {
   width: 100%;
+  height: 100%;
   left: 0;
   top: 5.6rem;
   display: flex;
@@ -42,8 +43,7 @@ body {
 
 .frame .main-container .content-container {
   box-sizing: border-box;
-  padding-bottom: 4.5rem;
-  width: 74.4rem;
+  width: 60%;
   height: 100%;
   align-items: center;
   display: flex;
@@ -146,7 +146,7 @@ body {
 
 .frame .main-container .content-container .questions-container {
   width: 100%;
-  height: 90vh;
+  height: 100%;
   overflow: scroll;
   align-items: center;
   display: flex;

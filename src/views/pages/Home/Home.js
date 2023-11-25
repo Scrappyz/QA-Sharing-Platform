@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from "react-router-dom";
 import "./Home.css";
 import Header from "../../components/Header/Header.js";
-import SidebarLeft from '../../components/SidebarLeft/SidebarLeft.js';
+import Sidebar from '../../components/Sidebar/Sidebar.js';
 import Question from '../../components/Question/Question.js';
 
 function Home() {
@@ -12,7 +12,7 @@ function Home() {
         <div className="frame">
             <Header />
             <div className="main-container">
-                <SidebarLeft />
+                <Sidebar />
                 <div className="content-container">
                     <div className="menu-container">
                         <div className="top-questions">Top Questions</div>
@@ -33,9 +33,7 @@ function Home() {
                         <Question votes={1261} answers={30} views={5230} question="What the dog doing?" tags={["beast"]} submittedBy="Jimbo" />
                     </div>
                 </div>
-                <div className="sidebar-right-Mtm">
-                    <button className="ask-question" onClick={() => navigate("/askquestion")}>Ask Question</button>
-                </div>
+                <Sidebar />
             </div>
         </div>
     );

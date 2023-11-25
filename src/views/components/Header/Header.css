@@ -1,19 +1,17 @@
 header {
     box-sizing: border-box;
-    padding: 1.3rem 12.4rem 1.7rem 3.05rem;
-    width: 126rem;
-    height: 5.6rem;
+    width: 100%;
     position: absolute;
     left: 0;
     top: 0.1rem;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     border: solid 0.1rem #313030;
     background-color: #242526;
 }
 
 header .website-name {
-    margin: 0rem 16.85rem 0.1rem 0rem;
     text-align: center;
     font-size: 2rem;
     font-weight: 400;

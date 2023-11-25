@@ -1,8 +1,8 @@
-.sidebar-left-container {
+.sidebar-container {
     box-sizing: border-box;
     padding: 0;
-    width: 26.8rem;
-    height: 90vh;
+    width: 20%;
+    height: 100%;
     row-gap: 2.3rem;
     align-items: center;
     display: flex;
@@ -11,7 +11,7 @@
     flex-shrink: 0;
 }
 
-.sidebar-left-container .home-btn {
+.sidebar-container .home-btn {
     border: none;
     text-align: center;
     padding: 10px 150px;
@@ -25,12 +25,12 @@
     flex-shrink: 0;
 }
 
-.sidebar-left-container .home-btn:hover {
+.sidebar-container .home-btn:hover {
     background-color:#3a3b3c;
     transition: 0.2s;
 }
 
-.sidebar-left-container .users-btn {
+.sidebar-container .users-btn {
     border: none;
     text-align: center;
     padding: 10px 120px;
@@ -44,12 +44,12 @@
     flex-shrink: 0;
 }
 
-.sidebar-left-container .users-btn:hover {
+.sidebar-container .users-btn:hover {
     background-color:#3a3b3c;
     transition: 0.2s;
 }
 
-.sidebar-left-container .saves-btn {
+.sidebar-container .saves-btn {
     border: none;
     text-align: center;
     padding: 10px 120px;
@@ -63,7 +63,7 @@
     flex-shrink: 0;
 }
 
-.sidebar-left-container .saves-btn:hover {
+.sidebar-container .saves-btn:hover {
     background-color:#3a3b3c;
     transition: 0.2s;
 }
