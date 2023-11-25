@@ -25,6 +25,7 @@
     border: none;
     font-size: 24px;
     color: white;
+    cursor: pointer;
 }
 
 .sidebar-container .btn:hover {

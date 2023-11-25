@@ -17,9 +17,9 @@ function Home() {
                     <div className="menu-container">
                         <div className="top-questions">Top Questions</div>
                         <ul className="filter-container">
-                            <li className="trending-btn">Trending</li>
-                            <li className="top-btn">Top</li>
-                            <li className="recent-btn">Recent</li>
+                            <li className="btn">Trending</li>
+                            <li className="btn">Top</li>
+                            <li className="btn">Recent</li>
                         </ul>
                     </div>
                     <div className="questions-container">

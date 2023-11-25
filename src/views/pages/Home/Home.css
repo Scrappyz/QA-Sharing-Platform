@@ -83,67 +83,26 @@ body {
 }
 
 .frame .main-container .content-container .menu-container .filter-container {
-  margin-left: 31.15rem;
   display: flex;
   align-items: flex-end;
+  justify-content: end;
   flex-shrink: 0;
 }
 
-.frame .main-container .content-container .menu-container .filter-container .trending-btn {
-  width: 12.3rem;
-  height: 3.9rem;
-  text-align: center;
-  font-size: 1.8rem;
-  font-weight: 400;
-  line-height: 1.2125;
-  color: #ffffff;
-  white-space: nowrap;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: solid 0.085rem #303030;
-  box-sizing: border-box;
+.frame .main-container .content-container .menu-container .filter-container .btn {
   background-color: #18191a;
-  border-radius: 0.5rem;
-  flex-shrink: 0;
-}
-
-.frame .main-container .content-container .menu-container .filter-container .top-btn {
-  width: 8.5rem;
-  height: 3.91rem;
-  text-align: center;
-  font-size: 2.1365rem;
-  font-weight: 400;
-  line-height: 1.2125;
-  color: #ffffff;
-  white-space: nowrap;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: solid 0.085rem #303030;
+  color: white;
   box-sizing: border-box;
-  background-color: #18191a;
-  border-radius: 0.5rem;
-  flex-shrink: 0;
-}
-
-.frame .main-container .content-container .menu-container .filter-container .recent-btn {
-  width: 12.3rem;
-  height: 3.9rem;
-  text-align: center;
-  font-size: 1.8rem;
-  font-weight: 400;
-  line-height: 1.2125;
-  color: #ffffff;
-  white-space: nowrap;
-  display: flex;
-  align-items: center;
   justify-content: center;
-  border: solid 0.085rem #303030;
-  box-sizing: border-box;
-  background-color: #18191a;
-  border-radius: 0.5rem;
-  flex-shrink: 0;
+  align-items: center;
+  width: fit-content;
+  border: solid 2px;
+  border-color: #3a3b3c;
+  border-radius: 2px;
+  font-size: 24px;
+  padding: 5px 20px;
+  margin: 0;
+  cursor: pointer;
 }
 
 .frame .main-container .content-container .questions-container {
