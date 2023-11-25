@@ -22,7 +22,7 @@ body {
 }
 
 * {
-  font-family: Calibri;
+  font-family: 'Cascadia Code', Consolas, Calibri;
 }
 
 .frame {

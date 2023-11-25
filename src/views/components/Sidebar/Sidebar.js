@@ -8,7 +8,9 @@ function Sidebar(props) {
 
     return (
         <div className="sidebar-container">
-            {props.buttons.map((b) => <button className="btn">{b}</button>)}
+            <div className="btn-list">
+                {props.buttons.map((b) => <button className="btn">{b}</button>)}
+            </div>
         </div>
     )
 }

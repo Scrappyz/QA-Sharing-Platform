@@ -12,16 +12,24 @@
     flex-shrink: 0;
 }
 
-.sidebar-container .btn {
+.sidebar-container .btn-list {
+    width: 100%;
+    position: relative;
+    top: 30px;
+}
+
+.sidebar-container .btn-list .btn {
     padding: 10px;
     width: 100%;
     background-color: transparent;
     border: none;
-    font-size: 28px;
+    font-size: 24px;
     color: white;
 }
 
 .sidebar-container .btn:hover {
-    background-color: #303030;
-    animation-duration: 0.5s;
+    background-color: transparent;
+    border-left-style: solid;
+    border-width: 10px;
+    border-color: #303030;
 }
