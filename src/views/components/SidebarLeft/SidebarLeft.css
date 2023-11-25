@@ -1,7 +1,8 @@
 .sidebar-left-container {
     box-sizing: border-box;
-    padding: 3.2rem 11rem 49.2rem 8.65rem;
+    padding: 0;
     width: 26.8rem;
+    height: 90vh;
     row-gap: 2.3rem;
     align-items: center;
     display: flex;
