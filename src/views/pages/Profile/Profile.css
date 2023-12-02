@@ -1,5 +1,3 @@
-
-
 html {
 	font-size:62.5%;
 }
@@ -47,86 +45,18 @@ body {
   align-items: flex-start;
 }
 
+
 .frame .main-container .content-container {
   box-sizing: border-box;
+  padding: 3.7rem 3.1rem 5.8rem 5.8rem;
   width: 60%;
   height: 100%;
-  position: relative;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
   border: solid 0.1rem #303030;
   background-color: #18191a;
   flex-shrink: 0;
 }
 
-.frame .main-container .content-container .menu-container {
-  box-sizing: border-box;
-  padding: 3.2rem 2.95rem 1.7rem 2.95rem;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
-}
-
-.frame .main-container .content-container .menu-container .top-questions {
-  margin-bottom: 5.4rem;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2.5rem;
-  font-weight: 400;
-  line-height: 1.2125;
-  color: #ffffff;
-  white-space: nowrap;
-  flex-shrink: 0;
-}
-
-.frame .main-container .content-container .menu-container .filter-container {
-  display: flex;
-  align-items: flex-end;
-  justify-content: end;
-  flex-shrink: 0;
-}
-
-.frame .main-container .content-container .menu-container .filter-container .btn {
-  background-color: #18191a;
-  color: white;
-  box-sizing: border-box;
-  justify-content: center;
-  align-items: center;
-  width: fit-content;
-  border: solid 2px;
-  border-color: #3a3b3c;
-  border-radius: 2px;
-  font-size: 24px;
-  padding: 5px 20px;
-  margin: 0;
-  cursor: pointer;
-}
-
-.frame .main-container .content-container .questions-container {
-  width: 100%;
-  height: 100%;
-  overflow: scroll;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
-}
-
-
-.Profile-ayX .auto-group-mge5-Uqw .main-G9X {
-  box-sizing: border-box;
-  padding: 3.7rem 3.1rem 5.8rem 5.8rem;
-  width: 74.4rem;
-  height: 100%;
-  border: solid 0.1rem #303030;
-  background-color: #18191a;
-  flex-shrink: 0;
-}
-.Profile-ayX .auto-group-mge5-Uqw .main-G9X .Profile-avu {
+.frame .main-container .content-container .profile-container {
   margin: 0rem 35.6rem 6.8rem 0rem;
   width: calc(100% - 35.6rem);
   height: 12rem;
@@ -134,7 +64,8 @@ body {
   align-items: center;
   border-radius: 0.5rem;
 }
-.Profile-ayX .auto-group-mge5-Uqw .main-G9X .Profile-avu .Profile-pic-7R3 {
+
+.frame .main-container .content-container .profile-container .profile-pic {
   margin-right: 1.7rem;
   width: 12rem;
   height: 100%;
@@ -143,7 +74,6 @@ body {
   font-weight: 400;
   line-height: 1.2125;
   color: #ffffff;
-  font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
   display: flex;
   align-items: center;
@@ -154,13 +84,15 @@ body {
   border-radius: 0.5rem;
   flex-shrink: 0;
 }
-.Profile-ayX .auto-group-mge5-Uqw .main-G9X .Profile-avu .name-wey {
+
+.frame .main-container .content-container .profile-container .name-container {
   margin: 3rem 0rem 4.2rem 0rem;
   width: 16.2rem;
   height: calc(100% - 7.2rem);
   flex-shrink: 0;
 }
-.Profile-ayX .auto-group-mge5-Uqw .main-G9X .Profile-avu .name-wey .your-name-GhF {
+
+.frame .main-container .content-container .profile-container .name-container .name {
   margin-bottom: 0.2rem;
   width: 100%;
   text-align: center;
@@ -168,31 +100,33 @@ body {
   font-weight: 400;
   line-height: 1.2125;
   color: #ffffff;
-  font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
 }
-.Profile-ayX .auto-group-mge5-Uqw .main-G9X .Profile-avu .name-wey .joined-on-month-day-year-7bP {
+
+.frame .main-container .content-container .profile-container .name-container .extra-info {
   width: 100%;
   text-align: center;
   font-size: 1.2207rem;
   font-weight: 400;
   line-height: 1.2125;
   color: #ffffff;
-  font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
 }
-.Profile-ayX .auto-group-mge5-Uqw .main-G9X .auto-group-h6d7-DuK {
+
+.frame .main-container .content-container .bottom-container {
   width: 100%;
   display: flex;
   align-items: flex-start;
 }
-.Profile-ayX .auto-group-mge5-Uqw .main-G9X .auto-group-h6d7-DuK .stats-BLM {
+
+.frame .main-container .content-container .bottom-container .stats-container {
   margin-right: 6.1rem;
   width: 20.6rem;
   border-radius: 1rem;
   flex-shrink: 0;
 }
-.Profile-ayX .auto-group-mge5-Uqw .main-G9X .auto-group-h6d7-DuK .stats-BLM .stats-LU9 {
+
+.frame .main-container .content-container .bottom-container .stats-container .stats-txt {
   margin-bottom: 0.6rem;
   font-size: 2.64rem;
   font-weight: 400;
@@ -201,7 +135,8 @@ body {
   font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
 }
-.Profile-ayX .auto-group-mge5-Uqw .main-G9X .auto-group-h6d7-DuK .stats-BLM .auto-group-cnk9-g2D {
+
+.frame .main-container .content-container .bottom-container .stats-container .user-stats-container {
   box-sizing: border-box;
   padding: 1rem 2.7rem 1.8rem 1.8rem;
   width: 100%;
@@ -212,7 +147,8 @@ body {
   background-color: #18191a;
   border-radius: 1rem;
 }
-.Profile-ayX .auto-group-mge5-Uqw .main-G9X .auto-group-h6d7-DuK .stats-BLM .auto-group-cnk9-g2D .auto-group-rww3-CFT {
+
+.frame .main-container .content-container .bottom-container .stats-container .user-stats-container .questions-container {
   margin: 0rem 0rem 2.3rem 0rem;
   width: calc(100% - 0rem);
   height: 4rem;
@@ -220,13 +156,15 @@ body {
   align-items: flex-start;
   flex-shrink: 0;
 }
-.Profile-ayX .auto-group-mge5-Uqw .main-G9X .auto-group-h6d7-DuK .stats-BLM .auto-group-cnk9-g2D .auto-group-rww3-CFT .questions-7NR {
+
+.frame .main-container .content-container .bottom-container .stats-container .user-stats-container .questions-container .questions {
   margin-right: 2.5rem;
   width: 7.4rem;
   height: 100%;
   flex-shrink: 0;
 }
-.Profile-ayX .auto-group-mge5-Uqw .main-G9X .auto-group-h6d7-DuK .stats-BLM .auto-group-cnk9-g2D .auto-group-rww3-CFT .questions-7NR .x-3Wy {
+
+.frame .main-container .content-container .bottom-container .stats-container .user-stats-container .questions-container .questions .value {
   margin-bottom: 0.2rem;
   width: 100%;
   text-align: center;
@@ -234,10 +172,10 @@ body {
   font-weight: 400;
   line-height: 1.2125;
   color: #ffffff;
-  font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
 }
-.Profile-ayX .auto-group-mge5-Uqw .main-G9X .auto-group-h6d7-DuK .stats-BLM .auto-group-cnk9-g2D .auto-group-rww3-CFT .questions-7NR .questions-mSy {
+
+.frame .main-container .content-container .bottom-container .stats-container .user-stats-container .questions-container .questions .txt {
   width: 100%;
   text-align: center;
   font-size: 1.5546rem;
@@ -247,11 +185,13 @@ body {
   font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
 }
-.Profile-ayX .auto-group-mge5-Uqw .main-G9X .auto-group-h6d7-DuK .stats-BLM .auto-group-cnk9-g2D .auto-group-rww3-CFT .upvotes-JSu {
+
+.frame .main-container .content-container .bottom-container .stats-container .user-stats-container .questions-container .upvotes {
   width: 6.2rem;
   flex-shrink: 0;
 }
-.Profile-ayX .auto-group-mge5-Uqw .main-G9X .auto-group-h6d7-DuK .stats-BLM .auto-group-cnk9-g2D .auto-group-rww3-CFT .upvotes-JSu .x-4BB {
+
+.frame .main-container .content-container .bottom-container .stats-container .user-stats-container .questions-container .upvotes .value {
   width: 100%;
   text-align: center;
   font-size: 1.5546rem;
@@ -261,7 +201,7 @@ body {
   font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
 }
-.Profile-ayX .auto-group-mge5-Uqw .main-G9X .auto-group-h6d7-DuK .stats-BLM .auto-group-cnk9-g2D .auto-group-rww3-CFT .upvotes-JSu .upvotes-yow {
+.frame .main-container .content-container .bottom-container .stats-container .user-stats-container .questions-container .upvotes .txt {
   width: 100%;
   text-align: center;
   font-size: 1.5553rem;
@@ -271,7 +211,8 @@ body {
   font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
 }
-.Profile-ayX .auto-group-mge5-Uqw .main-G9X .auto-group-h6d7-DuK .stats-BLM .auto-group-cnk9-g2D .auto-group-zdaz-iFj {
+
+.frame .main-container .content-container .bottom-container .stats-container .user-stats-container .auto-group-zdaz-iFj {
   margin-bottom: 1.7rem;
   width: 100%;
   height: 3.8rem;
@@ -279,13 +220,14 @@ body {
   align-items: center;
   flex-shrink: 0;
 }
-.Profile-ayX .auto-group-mge5-Uqw .main-G9X .auto-group-h6d7-DuK .stats-BLM .auto-group-cnk9-g2D .auto-group-zdaz-iFj .answers-fAy {
+
+.frame .main-container .content-container .bottom-container .stats-container .user-stats-container .auto-group-zdaz-iFj .answers-fAy {
   margin-right: 3.5rem;
   width: 6.4rem;
   height: 100%;
   flex-shrink: 0;
 }
-.Profile-ayX .auto-group-mge5-Uqw .main-G9X .auto-group-h6d7-DuK .stats-BLM .auto-group-cnk9-g2D .auto-group-zdaz-iFj .answers-fAy .x-oHB {
+.frame .main-container .content-container .bottom-container .stats-container .user-stats-container .auto-group-zdaz-iFj .answers-fAy .x-oHB {
   width: 100%;
   text-align: center;
   font-size: 1.5546rem;
@@ -295,7 +237,7 @@ body {
   font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
 }
-.Profile-ayX .auto-group-mge5-Uqw .main-G9X .auto-group-h6d7-DuK .stats-BLM .auto-group-cnk9-g2D .auto-group-zdaz-iFj .answers-fAy .answers-YEm {
+.frame .main-container .content-container .bottom-container .stats-container .user-stats-container .auto-group-zdaz-iFj .answers-fAy .answers-YEm {
   width: 100%;
   text-align: center;
   font-size: 1.5553rem;
@@ -305,12 +247,12 @@ body {
   font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
 }
-.Profile-ayX .auto-group-mge5-Uqw .main-G9X .auto-group-h6d7-DuK .stats-BLM .auto-group-cnk9-g2D .auto-group-zdaz-iFj .upvotes-tJd {
+.frame .main-container .content-container .bottom-container .stats-container .user-stats-container .auto-group-zdaz-iFj .upvotes-tJd {
   width: 6.2rem;
   height: 100%;
   flex-shrink: 0;
 }
-.Profile-ayX .auto-group-mge5-Uqw .main-G9X .auto-group-h6d7-DuK .stats-BLM .auto-group-cnk9-g2D .auto-group-zdaz-iFj .upvotes-tJd .x-qUm {
+.frame .main-container .content-container .bottom-container .stats-container .user-stats-container .auto-group-zdaz-iFj .upvotes-tJd .x-qUm {
   width: 100%;
   text-align: center;
   font-size: 1.5546rem;
@@ -320,7 +262,7 @@ body {
   font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
 }
-.Profile-ayX .auto-group-mge5-Uqw .main-G9X .auto-group-h6d7-DuK .stats-BLM .auto-group-cnk9-g2D .auto-group-zdaz-iFj .upvotes-tJd .upvotes-yay {
+.frame .main-container .content-container .bottom-container .stats-container .user-stats-container .auto-group-zdaz-iFj .upvotes-tJd .upvotes-yay {
   width: 100%;
   text-align: center;
   font-size: 1.5553rem;
@@ -330,14 +272,14 @@ body {
   font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
 }
-.Profile-ayX .auto-group-mge5-Uqw .main-G9X .auto-group-h6d7-DuK .stats-BLM .auto-group-cnk9-g2D .total-upvotes-Keq {
+.frame .main-container .content-container .bottom-container .stats-container .user-stats-container .total-upvotes-Keq {
   margin: 0rem 2.4rem 0rem 3.5rem;
   width: calc(100% - 5.9rem);
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
 }
-.Profile-ayX .auto-group-mge5-Uqw .main-G9X .auto-group-h6d7-DuK .stats-BLM .auto-group-cnk9-g2D .total-upvotes-Keq .x-mWq {
+.frame .main-container .content-container .bottom-container .stats-container .user-stats-container .total-upvotes-Keq .x-mWq {
   width: 100%;
   text-align: center;
   font-size: 1.5546rem;
@@ -348,7 +290,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.Profile-ayX .auto-group-mge5-Uqw .main-G9X .auto-group-h6d7-DuK .stats-BLM .auto-group-cnk9-g2D .total-upvotes-Keq .total-upvotes-6Z7 {
+.frame .main-container .content-container .bottom-container .stats-container .user-stats-container .total-upvotes-Keq .total-upvotes-6Z7 {
   width: 100%;
   text-align: center;
   font-size: 1.5553rem;
@@ -359,13 +301,13 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.Profile-ayX .auto-group-mge5-Uqw .main-G9X .auto-group-h6d7-DuK .information-nRw {
+.frame .main-container .content-container .bottom-container .information-nRw {
   margin-top: 0.3rem;
   width: 38.8rem;
   border-radius: 1rem;
   flex-shrink: 0;
 }
-.Profile-ayX .auto-group-mge5-Uqw .main-G9X .auto-group-h6d7-DuK .information-nRw .information-XuK {
+.frame .main-container .content-container .bottom-container .information-nRw .information-XuK {
   margin-bottom: 0.6rem;
   width: 100%;
   text-align: center;
@@ -376,7 +318,7 @@ body {
   font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
 }
-.Profile-ayX .auto-group-mge5-Uqw .main-G9X .auto-group-h6d7-DuK .information-nRw .auto-group-jyau-U3s {
+.frame .main-container .content-container .bottom-container .information-nRw .auto-group-jyau-U3s {
   box-sizing: border-box;
   padding: 1rem 6.6rem 1rem 2.4rem;
   width: 100%;
@@ -387,7 +329,7 @@ body {
   background-color: #18191a;
   border-radius: 1rem;
 }
-.Profile-ayX .auto-group-mge5-Uqw .main-G9X .auto-group-h6d7-DuK .information-nRw .auto-group-jyau-U3s .full-name-Nuw {
+.frame .main-container .content-container .bottom-container .information-nRw .auto-group-jyau-U3s .full-name-Nuw {
   margin-right: 18.3rem;
   text-align: center;
   font-size: 1.76rem;
@@ -398,7 +340,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.Profile-ayX .auto-group-mge5-Uqw .main-G9X .auto-group-h6d7-DuK .information-nRw .auto-group-jyau-U3s .age-u9B {
+.frame .main-container .content-container .bottom-container .information-nRw .auto-group-jyau-U3s .age-u9B {
   text-align: center;
   font-size: 1.76rem;
   font-weight: 400;
