@@ -32,8 +32,8 @@ function Profile() {
                         <div className="stats-container">
                             <p className="stats-txt">Stats</p>
                             <div className="user-stats-container">
-                                <div className="questions-container">
-                                    <div className="questions">
+                                <div className="posts-container">
+                                    <div className="posts">
                                         <p className="value">[x]</p>
                                         <p className="txt">Questions</p>
                                     </div>
@@ -42,19 +42,19 @@ function Profile() {
                                         <p className="txt">Upvotes</p>
                                     </div>
                                 </div>
-                                <div className="auto-group-zdaz-iFj">
-                                    <div className="answers-fAy">
-                                        <p className="x-oHB">[x]</p>
-                                        <p className="answers-YEm">Answers</p>
+                                <div className="comments-container">
+                                    <div className="comments">
+                                        <p className="value">[x]</p>
+                                        <p className="txt">Comments</p>
                                     </div>
-                                    <div className="upvotes-tJd">
-                                        <p className="x-qUm">[x]</p>
-                                        <p className="upvotes-yay">Upvotes</p>
+                                    <div className="upvotes">
+                                        <p className="value">[x]</p>
+                                        <p className="txt">Upvotes</p>
                                     </div>
                                 </div>
-                                <div className="total-upvotes-Keq">
-                                    <p className="x-mWq">[x]</p>
-                                    <p className="total-upvotes-6Z7">Total Upvotes</p>
+                                <div className="total-upvotes-container">
+                                    <p className="value">[x]</p>
+                                    <p className="txt">Total Upvotes</p>
                                 </div>
                             </div>
                         </div>
