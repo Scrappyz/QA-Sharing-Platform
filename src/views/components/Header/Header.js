@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./Header.css";
+import ProfilePic from "../../../assets/profile/profile.png";
 
 function Header() {
     const navigate = useNavigate();
@@ -10,11 +11,9 @@ function Header() {
             <div className="website-name">[Website Name]</div>
             <div className="search-bar">
                 <input type="text" placeholder="Search" />
-                {/* You can add additional styling or features to your search bar */}
             </div>
             <div className="button-container">
-                <button className="profile" onClick={() => navigate("/profile")}>Profile</button>
-                {/* Add more buttons as needed */}
+                <button className="profile" onClick={() => navigate("/profile")}><img src={ProfilePic} className="profile-pic" /></button>
             </div>
         </header>
     );
