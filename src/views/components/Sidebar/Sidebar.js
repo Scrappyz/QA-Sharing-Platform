@@ -9,7 +9,7 @@ function Sidebar(props) {
     return (
         <div className="sidebar-container">
             <div className="btn-list">
-                {props.buttons.map((b) => <button className="btn">{b}</button>)}
+                {Object.entries(props.buttons).map(([key, val]) => <button className="btn" onClick={() => navigate(val.path)}>{key}</button>)}
             </div>
         </div>
     )

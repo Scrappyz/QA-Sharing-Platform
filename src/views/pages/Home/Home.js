@@ -12,7 +12,17 @@ function Home() {
         <div className="frame">
             <Header />
             <div className="main-container">
-                <Sidebar buttons={["Home", "Users", "Saves"]} />
+                <Sidebar buttons={{
+                    Home: {
+                        path: "/"
+                    }, 
+                    User: {
+                        path: null
+                    },
+                    Saves: {
+                        path: null
+                    }
+                }} />
                 <div className="content-container">
                     <div className="menu-container">
                         <div className="top-questions">Top Questions</div>
@@ -33,7 +43,11 @@ function Home() {
                         <Question votes={1261} answers={30} views={5230} question="What the dog doing?" tags={["beast"]} submittedBy="Jimbo" />
                     </div>
                 </div>
-                <Sidebar buttons={["Ask Question"]} />
+                <Sidebar buttons={{
+                    "Ask Question": {
+                        path: "/askquestion"
+                    }
+                }} />
             </div>
         </div>
     );
