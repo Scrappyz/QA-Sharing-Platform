@@ -5,10 +5,11 @@ header {
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     border: solid 0.1rem #313030;
     background-color: #242526;
     font-family: Calibri;
+    padding: 0 1rem; /* Add padding for better spacing */
 }
 
 header .website-name {
@@ -18,27 +19,35 @@ header .website-name {
     line-height: 1.2125;
     color: #ffffff;
     white-space: nowrap;
-    flex-shrink: 0;
 }
 
 header .search-bar {
-    margin: 0.1rem 15.5rem 0.2rem 0rem;
+    flex-grow: 0; /* Allow the search bar to grow and take remaining space */
+    margin: 0 1rem;
     box-sizing: border-box;
-    padding: 0.288rem 2.62rem 0.113rem 2.62rem;
-    width: 58.9rem;
+    padding: 0.288rem;
+    width: 50%; /* Adjusted to take remaining space */
     height: calc(100% - 50%);
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: 400;
-    line-height: 1.2125;
-    color: #ffffff;
-    white-space: nowrap;
+    display: flex;
+    align-items: center;
     background-color: #3a3b3c;
-    flex-shrink: 0;
+}
+
+header .search-bar input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+header .button-container {
+    display: flex;
+    align-items: center;
 }
 
 header .profile {
-    margin-top: 0.1rem;
     text-align: center;
     font-size: 2rem;
     font-weight: 400;
@@ -47,10 +56,9 @@ header .profile {
     color: rgb(255, 245, 245);
     background: none;
     white-space: nowrap;
-    flex-shrink: 0;
 }
 
 header .profile:hover {
-    background-color:#3a3b3c;
+    background-color: #3a3b3c;
     transition: 0.5s;
 }
