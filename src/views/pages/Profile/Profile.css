@@ -291,52 +291,56 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.frame .main-container .content-container .bottom-container .information-nRw {
+
+.frame .main-container .content-container .bottom-container .information-container {
   margin-top: 0.3rem;
-  width: 38.8rem;
+  width: 48.8rem;
   border-radius: 1rem;
   flex-shrink: 0;
+  overflow: hidden;
 }
-.frame .main-container .content-container .bottom-container .information-nRw .information-XuK {
+
+.frame .main-container .content-container .bottom-container .information-container .label {
   margin-bottom: 0.6rem;
   width: 100%;
-  text-align: center;
+  text-align: left;
   font-size: 2.4rem;
   font-weight: 400;
   line-height: 1.2125;
   color: #ffffff;
-  
   white-space: nowrap;
 }
-.frame .main-container .content-container .bottom-container .information-nRw .auto-group-jyau-U3s {
+
+.frame .main-container .content-container .bottom-container .information-container .container {
   box-sizing: border-box;
-  padding: 1rem 6.6rem 1rem 2.4rem;
+  padding: 1rem 2.6rem 1rem 2.4rem;
   width: 100%;
   height: 35.2rem;
-  display: flex;
-  align-items: flex-start;
+  display: block;
   border: solid 0.1rem #303030;
   background-color: #18191a;
   border-radius: 1rem;
 }
-.frame .main-container .content-container .bottom-container .information-nRw .auto-group-jyau-U3s .full-name-Nuw {
-  margin-right: 18.3rem;
-  text-align: center;
-  font-size: 1.76rem;
-  font-weight: 400;
-  line-height: 1.2125;
-  color: #929292;
-  
-  white-space: nowrap;
-  flex-shrink: 0;
+
+.frame .main-container .content-container .bottom-container .information-container .container .info-container {
+  position: relative;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 5%;
 }
-.frame .main-container .content-container .bottom-container .information-nRw .auto-group-jyau-U3s .age-u9B {
-  text-align: center;
+
+.frame .main-container .content-container .bottom-container .information-container .container .info-container .label {
+  color: #929292;
+  white-space: nowrap;
   font-size: 1.76rem;
   font-weight: 400;
-  line-height: 1.2125;
-  color: #929292;
-  
+  text-align: left;
+}
+
+.frame .main-container .content-container .bottom-container .information-container .container .info-container .value {
+  color: #ffffff;
   white-space: nowrap;
-  flex-shrink: 0;
+  font-size: 1.86rem;
+  font-weight: 400;
+  text-align: left;
 }

@@ -58,12 +58,22 @@ function Profile() {
                                 </div>
                             </div>
                         </div>
-                        <div className="information-nRw">
-                            <p className="information-XuK">Information</p>
-                        <div className="auto-group-jyau-U3s">
-                            <p className="full-name-Nuw">Full Name</p>
-                            <p className="age-u9B">Age</p>
-                        </div>
+                        <div className="information-container">
+                            <p className="label">Information</p>
+                            <div className="container">
+                                <div className="info-container">
+                                    <p className="label">Full Name</p>
+                                    <p className="value">[Your name]</p>
+                                </div>
+                                <div className="info-container">
+                                    <p className="label">Birthday</p>
+                                    <p className="value">[MM/DD/YYYY]</p>
+                                </div>
+                                <div className="info-container">
+                                    <p className="label">Age</p>
+                                    <p className="value">[Age]</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
