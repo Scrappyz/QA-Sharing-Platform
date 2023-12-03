@@ -35,7 +35,7 @@ function Profile() {
                                 <div className="posts-container">
                                     <div className="posts">
                                         <p className="value">[x]</p>
-                                        <p className="txt">Questions</p>
+                                        <p className="txt">Posts</p>
                                     </div>
                                     <div className="upvotes">
                                         <p className="value">[x]</p>
