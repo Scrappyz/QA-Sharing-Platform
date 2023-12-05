@@ -54,120 +54,63 @@ body {
   flex-shrink: 0;
 }
 
-.frame .main-container .selection-F2y {
-  margin-bottom: 4.3458rem;
-  height: 3.8958rem;
-  display: flex;
-  column-gap: 0.9rem;
-  align-items: center;
-}
-.frame .main-container .selection-F2y .auto-group-eik3-9u3 {
-  margin: 0.998rem 0rem 0.666rem 0rem;
-  height: calc(100% - 1.6643rem);
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
-}
-.frame .main-container .selection-F2y .auto-group-eik3-9u3 .AddQuestions-4WD {
-  margin-bottom: 0.3315rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5rem;
-  font-weight: 400;
-  line-height: 1.2125;
-  color: #ffffff;
-  font-family: Inter, 'Source Sans Pro';
-  white-space: nowrap;
-  flex-shrink: 0;
-}
-.frame .main-container .selection-F2y .auto-group-eik3-9u3 .line-2-j6Z {
-  margin-right: 0.3rem;
-  width: 5.6rem;
-  height: 0;
-  object-fit: contain;
-  vertical-align: top;
-  flex-shrink: 0;
-}
-.frame .main-container .selection-F2y .line-1-ejK {
-  width: 0.1rem;
-  height: 3.8958rem;
-  background-color: #8f8f8f;
-  flex-shrink: 0;
-}
-.frame .main-container .selection-F2y .create-post-b8m {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5rem;
-  font-weight: 400;
-  line-height: 1.2125;
-  color: #979797;
-  font-family: Inter, 'Source Sans Pro';
-  white-space: nowrap;
-  flex-shrink: 0;
-}
-.frame .main-container .AddQuestions-WFj {
-  margin-bottom: 2.3698rem;
+.frame .main-container .content-container .top-label {
+  box-sizing: border-box;
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  color: white;
   font-size: 2.5rem;
-  font-weight: 400;
-  line-height: 1.2125;
-  color: #ffffff;
-  font-family: Inter, 'Source Sans Pro';
-  white-space: nowrap;
+  text-align: center;
 }
-.frame .main-container .title-1TP {
-  margin: 0rem 0rem 3.971rem 1.388rem;
+
+.frame .main-container .content-container .title-container {
+  margin: 0 4rem 2rem 4rem;
   box-sizing: border-box;
   padding-bottom: 0rem;
-  width: 68.0117rem;
+  width: 90%;
   border-radius: 0.5rem;
 }
-.frame .main-container .title-1TP .title-v4Z {
-  margin-bottom: 0.8954rem;
+
+.frame .main-container .content-container .title-container .label {
+  margin-bottom: 0.6904rem;
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: left;
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 1.2125;
   color: #ffffff;
-  font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
 }
-.frame .main-container .title-1TP .shape-qBX {
+
+.frame .main-container .content-container .title-container .title {
   margin-left: 0.1109rem;
-  width: 67.9007rem;
+  width: 100%;
   height: 2.8706rem;
   border: solid 0.1rem #3a3b3c;
   box-sizing: border-box;
   background-color: #242526;
+  color: white;
   border-radius: 0.5rem;
 }
-.frame .main-container .body-WHf {
-  margin: 0rem 0rem 1.408rem 1.5rem;
-  width: 67.9rem;
+
+.frame .main-container .content-container .body-container {
+  margin: 2rem 4rem 2rem 4rem;
+  width: 90%;
 }
-.frame .main-container .body-WHf .body-RvR {
+
+.frame .main-container .content-container .body-container .label {
   margin-bottom: 0.6904rem;
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: left;
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 1.2125;
   color: #ffffff;
-  font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
 }
-.frame .main-container .body-WHf .body-buttons-kho {
+
+.frame .main-container .content-container .body-container .buttons-container {
   margin: 0rem 0rem 0.205rem 0.2rem;
   box-sizing: border-box;
   padding: 0.187rem 32.232rem 0.241rem 0.767rem;
@@ -176,7 +119,7 @@ body {
   border: solid 0.1rem #3a3b3c;
   background-color: #18191a;
 }
-.frame .main-container .body-WHf .body-buttons-kho .bold-Ecy {
+.frame .main-container .content-container .body-container .buttons-container .bold-Ecy {
   margin: 0.402rem 1.639rem 0rem 0rem;
   width: 1.0165rem;
   height: 1.4253rem;
@@ -185,7 +128,7 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.frame .main-container .body-WHf .body-buttons-kho .italic-Z9T {
+.frame .main-container .content-container .body-container .buttons-container .italic-Z9T {
   margin: 0.338rem 3.435rem 0rem 0rem;
   width: 1.4314rem;
   height: 1.2336rem;
@@ -194,7 +137,7 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.frame .main-container .body-WHf .body-buttons-kho .s-GpZ {
+.frame .main-container .content-container .body-container .buttons-container .s-GpZ {
   margin: 0.378rem 1.445rem 0rem 0rem;
   width: 1.1339rem;
   height: 1.3516rem;
@@ -203,7 +146,7 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.frame .main-container .body-WHf .body-buttons-kho .razorblade-Auw {
+.frame .main-container .content-container .body-container .buttons-container .razorblade-Auw {
   margin: 0.19rem 6.51rem 0rem 0rem;
   width: 2.57rem;
   height: 1.5048rem;
@@ -211,7 +154,7 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.frame .main-container .body-WHf .body-buttons-kho .numbering-Hjf {
+.frame .main-container .content-container .body-container .buttons-container .numbering-Hjf {
   margin: 0rem 1.524rem 0.083rem 0rem;
   width: 2.5135rem;
   height: 1.7438rem;
@@ -220,7 +163,7 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.frame .main-container .body-WHf .body-buttons-kho .bullet-pDo {
+.frame .main-container .content-container .body-container .buttons-container .bullet-pDo {
   margin: 0rem 1.776rem 0.164rem 0rem;
   width: 2.2817rem;
   height: 1.4037rem;
@@ -229,7 +172,7 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.frame .main-container .body-WHf .body-buttons-kho .spacing-9G5 {
+.frame .main-container .content-container .body-container .buttons-container .spacing-9G5 {
   margin: 0.219rem 1.269rem 0rem 0rem;
   width: 2.2644rem;
   height: 1.1875rem;
@@ -237,7 +180,7 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.frame .main-container .body-WHf .body-buttons-kho .undo-sC5 {
+.frame .main-container .content-container .body-container .buttons-container .undo-sC5 {
   margin: 0.172rem 1.437rem 0rem 0rem;
   width: 1.2098rem;
   height: 0.8574rem;
@@ -246,7 +189,7 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.frame .main-container .body-WHf .body-buttons-kho .redo-zGh {
+.frame .main-container .content-container .body-container .buttons-container .redo-zGh {
   margin-top: 0.0656rem;
   width: 1.2458rem;
   height: 1.065rem;
@@ -255,21 +198,24 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.frame .main-container .body-WHf .text-body-76R {
+
+.frame .main-container .content-container .body-container .text-body {
   margin-left: 0.2rem;
-  width: 67.7rem;
+  width: 100%;
   height: 17.2237rem;
   border: solid 0.1rem #3a3b3c;
   box-sizing: border-box;
   background-color: #242526;
+  color: white;
   border-radius: 0.5rem;
 }
-.frame .main-container .tags-pmX {
+
+.frame .main-container .content-container .tags-pmX {
   margin: 0rem 0rem 2.768rem 1.4rem;
   width: 68rem;
   border-radius: 0.5rem;
 }
-.frame .main-container .tags-pmX .tags-xMw {
+.frame .main-container .content-container .tags-pmX .tags-xMw {
   margin-bottom: 0.8954rem;
   width: 100%;
   display: flex;
@@ -282,7 +228,7 @@ body {
   font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
 }
-.frame .main-container .tags-pmX .shape-gHw {
+.frame .main-container .content-container .tags-pmX .shape-gHw {
   width: 100%;
   height: 2.9731rem;
   border: solid 0.1rem #3a3b3c;
@@ -290,7 +236,7 @@ body {
   background-color: #242526;
   border-radius: 0.5rem;
 }
-.frame .main-container .review-question-Py3 {
+.frame .main-container .content-container .review-question-Py3 {
   margin-left: 54.8rem;
   width: 14.6rem;
   height: 3.7933rem;

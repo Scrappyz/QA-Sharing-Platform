@@ -20,7 +20,32 @@ function AskQuestion() {
                     }
                 }} />
                 <div className="content-container">
-
+                    <div className="top-label">Create Post</div>
+                    <div className="title-container">
+                        <p className="label">Title</p>
+                        <input className="title" type="text" placeholder="Title" />
+                    </div>
+                    <div className="body-container">
+                        <p className="label">Body</p>
+                        <div className="buttons-container">
+                            <img className="bold-Ecy" src="./assets/bold.png"/>
+                            <img className="italic-Z9T" src="./assets/italic.png"/>
+                            <img className="s-GpZ" src="./assets/s.png"/>
+                            <img className="razorblade-Auw" src="./assets/razorblade.png"/>
+                            <img className="numbering-Hjf" src="./assets/numbering.png"/>
+                            <img className="bullet-pDo" src="./assets/bullet.png"/>
+                            <img className="spacing-9G5" src="./assets/spacing.png"/>
+                            <img className="undo-sC5" src="./assets/undo.png"/>
+                            <img className="redo-zGh" src="./assets/redo.png"/>
+                        </div>
+                        <textarea className="text-body" placeholder="Describe your problem" />
+                    </div>
+                    <div className="tags-pmX">
+                        <div className="tags-xMw">Tags</div>
+                        <div className="shape-gHw">
+                        </div>
+                    </div>
+                    <div className="review-question-Py3">Review Question</div>
                 </div>
                 <Sidebar buttons={{
                     // none
@@ -39,14 +64,14 @@ function AskQuestion() {
         //         <div className="create-post-b8m">Create Post</div>
         //         </div>
         //         <div className="AskQuestion-WFj">Add Question</div>
-        //         <div className="title-1TP">
-        //         <div className="title-v4Z">Title</div>
+        //         <div className="title-container">
+        //         <div className="label">Title</div>
         //         <div className="shape-qBX">
         //         </div>
         //         </div>
-        //         <div className="body-WHf">
-        //         <div className="body-RvR">Body</div>
-        //         <div className="body-buttons-kho">
+        //         <div className="body-container">
+        //         <div className="label">Body</div>
+        //         <div className="buttons-container">
         //             <img className="bold-Ecy" src="./assets/bold.png"/>
         //             <img className="italic-Z9T" src="./assets/italic.png"/>
         //             <img className="s-GpZ" src="./assets/s.png"/>
@@ -57,7 +82,7 @@ function AskQuestion() {
         //             <img className="undo-sC5" src="./assets/undo.png"/>
         //             <img className="redo-zGh" src="./assets/redo.png"/>
         //         </div>
-        //         <div className="text-body-76R">
+        //         <div className="text-body">
         //         </div>
         //         </div>
         //         <div className="tags-pmX">
@@ -66,7 +91,7 @@ function AskQuestion() {
         //         </div>
         //         </div>
         //         <div className="review-question-Py3">Review Question</div>
-        //     </div>
+        //    </div>
         // </div>
     );
 }
