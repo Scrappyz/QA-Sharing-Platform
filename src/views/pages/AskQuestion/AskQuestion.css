@@ -65,7 +65,7 @@ body {
 }
 
 .frame .main-container .content-container .title-container {
-  margin: 0 4rem 2rem 4rem;
+  margin: 0 4rem 1.5rem 4rem;
   box-sizing: border-box;
   padding-bottom: 0rem;
   width: 90%;
@@ -95,7 +95,7 @@ body {
 }
 
 .frame .main-container .content-container .body-container {
-  margin: 2rem 4rem 2rem 4rem;
+  margin: 1.5rem 4rem 1.5rem 4rem;
   width: 90%;
 }
 
@@ -210,32 +210,34 @@ body {
   border-radius: 0.5rem;
 }
 
-.frame .main-container .content-container .tags-pmX {
-  margin: 0rem 0rem 2.768rem 1.4rem;
-  width: 68rem;
+.frame .main-container .content-container .tags-container {
+  margin: 1.5rem 4rem 1.5rem 4rem;
+  width: 90%;
   border-radius: 0.5rem;
 }
-.frame .main-container .content-container .tags-pmX .tags-xMw {
-  margin-bottom: 0.8954rem;
+
+.frame .main-container .content-container .tags-container .label {
+  margin-bottom: 0.6904rem;
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: left;
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 1.2125;
   color: #ffffff;
-  font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
 }
-.frame .main-container .content-container .tags-pmX .shape-gHw {
+
+.frame .main-container .content-container .tags-container .tags {
+  margin-left: 0.1109rem;
   width: 100%;
-  height: 2.9731rem;
+  height: 2.8706rem;
   border: solid 0.1rem #3a3b3c;
   box-sizing: border-box;
   background-color: #242526;
+  color: white;
   border-radius: 0.5rem;
 }
+
 .frame .main-container .content-container .review-question-Py3 {
   margin-left: 54.8rem;
   width: 14.6rem;

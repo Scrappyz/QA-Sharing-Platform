@@ -23,7 +23,7 @@ function AskQuestion() {
                     <div className="top-label">Create Post</div>
                     <div className="title-container">
                         <p className="label">Title</p>
-                        <input className="title" type="text" placeholder="Title" />
+                        <input className="title" type="text" placeholder="e.g. What is 2+2?" />
                     </div>
                     <div className="body-container">
                         <p className="label">Body</p>
@@ -38,12 +38,11 @@ function AskQuestion() {
                             <img className="undo-sC5" src="./assets/undo.png"/>
                             <img className="redo-zGh" src="./assets/redo.png"/>
                         </div>
-                        <textarea className="text-body" placeholder="Describe your problem" />
+                        <textarea className="text-body" placeholder="Describe your post." />
                     </div>
-                    <div className="tags-pmX">
-                        <div className="tags-xMw">Tags</div>
-                        <div className="shape-gHw">
-                        </div>
+                    <div className="tags-container">
+                        <p className="label">Tags</p>
+                        <input className="tags" type="text" placeholder="e.g. computer-science mathematics discrete-structures" />
                     </div>
                     <div className="review-question-Py3">Review Question</div>
                 </div>
@@ -85,7 +84,7 @@ function AskQuestion() {
         //         <div className="text-body">
         //         </div>
         //         </div>
-        //         <div className="tags-pmX">
+        //         <div className="tags-container">
         //         <div className="tags-xMw">Tags</div>
         //         <div className="shape-gHw">
         //         </div>
