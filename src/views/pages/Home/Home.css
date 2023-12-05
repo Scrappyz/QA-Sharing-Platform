@@ -48,6 +48,8 @@ body {
 
 .frame .main-container .content-container {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   width: 60%;
   height: 100%;
   position: relative;
@@ -108,6 +110,8 @@ body {
 .frame .main-container .content-container .questions-container {
   width: 100%;
   height: 100%;
+  margin: 0;
+  padding: 0;
   overflow: scroll;
   align-items: center;
   display: flex;
