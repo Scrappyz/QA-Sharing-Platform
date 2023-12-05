@@ -2,12 +2,13 @@ import React from "react";
 import "./Profile.css";
 import Header from "../../components/Header/Header.js";
 import Sidebar from "../../components/Sidebar/Sidebar.js";
-import DefaultProfilePic from "../../../assets/profile/defaultProfile.png";
 
 function Profile() {
+    const profile_pic = "../../../assets/profile/defaultProfile.png";
+    
     return (
         <div className="frame">
-            <Header />
+            <Header profilePic={profile_pic} />
             <div className="main-container">
                 <Sidebar buttons={{
                     Home: {
@@ -22,7 +23,7 @@ function Profile() {
                 }} />
                 <div className="content-container">
                     <div className="profile-container">
-                        <img className="profile-pic" src={DefaultProfilePic} />
+                        <img className="profile-pic" src={profile_pic} />
                         <div className="name-container">
                             <p className="name">Your Name</p>
                             <p className="extra-info">Joined on [Month/Day/Year]</p>

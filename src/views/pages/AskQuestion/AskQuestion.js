@@ -28,15 +28,15 @@ function AskQuestion() {
                     <div className="body-container">
                         <p className="label">Body</p>
                         <div className="buttons-container">
-                            <img className="bold-Ecy" src="./assets/bold.png"/>
-                            <img className="italic-Z9T" src="./assets/italic.png"/>
-                            <img className="s-GpZ" src="./assets/s.png"/>
-                            <img className="razorblade-Auw" src="./assets/razorblade.png"/>
-                            <img className="numbering-Hjf" src="./assets/numbering.png"/>
-                            <img className="bullet-pDo" src="./assets/bullet.png"/>
-                            <img className="spacing-9G5" src="./assets/spacing.png"/>
-                            <img className="undo-sC5" src="./assets/undo.png"/>
-                            <img className="redo-zGh" src="./assets/redo.png"/>
+                            <img className="heading-btn" src="./assets/icons/heading.png" />
+                            <img className="bold-btn" src="./assets/icons/bold.png"/>
+                            <img className="italic-btn" src="./assets/icons/italic.png"/>
+                            <img className="link-btn" src="./assets/icons/link.png"/>
+                            <img className="image-btn" src="./assets/icons/image.png"/>
+                            <img className="numbering-btn" src="./assets/icons/number_list.png"/>
+                            <img className="bullet-btn" src="./assets/icons/bullet_list.png"/>
+                            <img className="undo-btn" src="./assets/icons/undo.png"/>
+                            <img className="redo-btn" src="./assets/icons/redo.png"/>
                         </div>
                         <textarea className="text-body" placeholder="Describe your post." />
                     </div>
@@ -44,7 +44,7 @@ function AskQuestion() {
                         <p className="label">Tags</p>
                         <input className="tags" type="text" placeholder="e.g. computer-science mathematics discrete-structures" />
                     </div>
-                    <div className="review-question-Py3">Review Question</div>
+                    <button className="review-question-btn">Review Question</button>
                 </div>
                 <Sidebar buttons={{
                     // none

@@ -1,7 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./Header.css";
-import DefaultProfilePic from "../../../assets/profile/defaultProfile.png";
 
 function Header(props) {
     const navigate = useNavigate();
@@ -21,7 +20,7 @@ function Header(props) {
 
 Header.defaultProps = {
     title: "[Website Name]",
-    profilePic: DefaultProfilePic
+    profilePic: "../../../assets/profile/defaultProfile.png"
 }
 
 export default Header;
