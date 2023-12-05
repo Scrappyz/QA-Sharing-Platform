@@ -2,7 +2,7 @@ import React from "react";
 import "./Profile.css";
 import Header from "../../components/Header/Header.js";
 import Sidebar from "../../components/Sidebar/Sidebar.js";
-import ProfilePic from "../../../assets/profile/profile.png";
+import DefaultProfilePic from "../../../assets/profile/defaultProfile.png";
 
 function Profile() {
     return (
@@ -22,7 +22,7 @@ function Profile() {
                 }} />
                 <div className="content-container">
                     <div className="profile-container">
-                        <img className="profile-pic" src={ProfilePic} />
+                        <img className="profile-pic" src={DefaultProfilePic} />
                         <div className="name-container">
                             <p className="name">Your Name</p>
                             <p className="extra-info">Joined on [Month/Day/Year]</p>
