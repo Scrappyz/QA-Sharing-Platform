@@ -55,48 +55,77 @@
 }
 
 .question-info-container .question-container {
-    margin: 0rem 22.141rem 1.7rem 0rem;
-    align-items: center;
+    margin: 0rem 2rem 1.7rem 0rem;
+    align-items: left;
     display: flex;
+    justify-content: left;
     flex-direction: column;
     flex-shrink: 0;
+    width: 40rem;
+    padding: 0;
+    text-wrap: wrap;
 }
 
 .question-info-container .question-container .question {
-    margin-bottom: 1.1rem;
+    margin-bottom: 1.0rem;
     display: flex;
     align-items: center;
-    justify-content: center;
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     font-weight: 400;
     line-height: 1.2125;
     color: #ffffff;
     white-space: nowrap;
+    text-wrap: wrap;
     flex-shrink: 0;
 }
 
 .question-info-container .question-container .tags-container {
-    margin-left: 4.4811rem;
+    margin: 0;
+    border: 0;
+    padding: 0;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 1.2125;
     color: #ffffff;
     white-space: nowrap;
+    text-wrap: wrap;
     flex-shrink: 0;
 }
 
-.question-info-container .submitted-by {
+.question-info-container .user-info-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: space-between;
+}
+
+.question-info-container .user-info-container .submitted-by {
     margin-top: 2.5rem;
+    margin-bottom: 1rem;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 1.2125;
     color: #ffffff;
     white-space: nowrap;
     flex-shrink: 0;
+    width: 20rem;
+}
+
+.question-info-container .user-info-container .submitted-by .profile-pic {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+.question-info-container .user-info-container .post-date {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 3rem;
+    width: 20rem;
 }

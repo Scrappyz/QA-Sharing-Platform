@@ -4,7 +4,8 @@ import PropTypes from "prop-types";
 import {shortenNumber} from "../../../helpers/utility.js";
 
 function Question(props) {
-    
+    const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
     return (
         <div className="question-info-container">
             <div className="stats-container">
@@ -14,11 +15,14 @@ function Question(props) {
             </div>
             <div className="question-container">
                 <div className="question">{props.question}</div>
-                <ul className="tags-container">
-                    {props.tags.map((t) => <li>#{t}</li>)}
-                </ul>
+                <div className="tags-container">
+                    {props.tags.map((t) => <p>#{t}&nbsp;</p>)}
+                </div>
             </div>
-            <div className="submitted-by">Submitted by: {props.submittedBy}</div>
+            <div className="user-info-container">
+                <p className="submitted-by"><img className="profile-pic" src={props.user.profile} /> {props.user.name}</p>
+                <p className="post-date">{months[props.postDate.getMonth()]} {props.postDate.getDate()}, {props.postDate.getFullYear()}</p>
+            </div>
         </div>
     )
 }
@@ -29,7 +33,7 @@ Question.propTypes = {
     views: PropTypes.number,
     question: PropTypes.string,
     tags: PropTypes.array,
-    submittedBy: PropTypes.string
+    user: PropTypes.object
 }
 
 Question.defaultProps = {
@@ -38,7 +42,11 @@ Question.defaultProps = {
     views: 0,
     question: "No Question",
     tags: [],
-    submittedBy: "None"
+    user: {
+        profile: null,
+        name: ""
+    },
+    postDate: new Date()
 };
 
 export default Question;

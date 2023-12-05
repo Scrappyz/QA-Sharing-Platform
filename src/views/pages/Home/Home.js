@@ -7,7 +7,7 @@ import Question from '../../components/Question/Question.js';
 
 function Home() {
     const navigate = useNavigate();
-
+    const default_profile = "./assets/profile/defaultProfile.png";
     return (
         <div className="frame">
             <Header />
@@ -36,14 +36,10 @@ function Home() {
                         </ul>
                     </div>
                     <div className="questions-container">
-                        <Question votes={1261} answers={30} views={5230} question="What the dog doing?" tags={["beast"]} submittedBy="Jimbo" />
-                        <Question votes={1261} answers={30} views={5230} question="What the dog doing?" tags={["beast"]} submittedBy="Jimbo" />
-                        <Question votes={1261} answers={30} views={5230} question="What the dog doing?" tags={["beast"]} submittedBy="Jimbo" />
-                        <Question votes={1261} answers={30} views={5230} question="What the dog doing?" tags={["beast"]} submittedBy="Jimbo" />
-                        <Question votes={1261} answers={30} views={5230} question="What the dog doing?" tags={["beast"]} submittedBy="Jimbo" />
-                        <Question votes={1261} answers={30} views={5230} question="What the dog doing?" tags={["beast"]} submittedBy="Jimbo" />
-                        <Question votes={1261} answers={30} views={5230} question="What the dog doing?" tags={["beast"]} submittedBy="Jimbo" />
-                        <Question votes={1261} answers={30} views={5230} question="What the dog doing?" tags={["beast"]} submittedBy="Jimbo" />
+                        <Question votes={1261} answers={30} views={5230} question="Explain the concept of recursion and provide an example" tags={["computer-science"]} user={{name: "Fredrick Aquilino", profile: default_profile}} postDate={new Date("2023-12-5")} />
+                        <Question votes={1600} answers={22} views={7300} question="Describe the differences between a stack and a queue data structure" tags={["computer-science", "data-structures"]} user={{name: "Trent Sullivan", profile: default_profile}} postDate={new Date("2023-7-21")} />
+                        <Question votes={2100} answers={28} views={7800} question="What is the purpose of an API?" tags={["computer-science"]} user={{name: "Kory Lorete", profile: default_profile}} postDate={new Date("2023-8-15")} />
+                        <Question votes={2100} answers={28} views={7800} question="What is the significance of the Big O notation in algorithm analysis?" tags={["computer-science", "algorithms"]} user={{name: "Alexis Baldedara", profile: default_profile}} postDate={new Date("2023-8-29")} />
                     </div>
                 </div>
                 <Sidebar buttons={{
