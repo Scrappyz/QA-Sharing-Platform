@@ -1,13 +1,30 @@
 import React from "react";
 import "./AskQuestion.css";
 import Header from "../../components/Header/Header.js";
+import Sidebar from "../../components/Sidebar/Sidebar.js";
 
 function AskQuestion() {
     return (
         <div className="frame">
             <Header />
             <div className="main-container">
+                <Sidebar buttons={{
+                    Home: {
+                        path: "/"
+                    }, 
+                    User: {
+                        path: null
+                    },
+                    Saves: {
+                        path: null
+                    }
+                }} />
+                <div className="content-container">
 
+                </div>
+                <Sidebar buttons={{
+                    // none
+                }} />
             </div>
         </div>
         // <div className="AskQuestion-QFK">
@@ -49,17 +66,6 @@ function AskQuestion() {
         //         </div>
         //         </div>
         //         <div className="review-question-Py3">Review Question</div>
-        //     </div>
-        //     <div className="sidebar-right-pYZ">Ask Question</div>
-        //     <div className="sidebar-left-f3P">
-        //         <p className="home-LQR">Home</p>
-        //         <p className="users-4bK">Users</p>
-        //         <p className="saves-o37">Saves</p>
-        //     </div>
-        //     <div className="header-JEm">
-        //         <p className="website-name-ztH">[Website Name]</p>
-        //         <div className="search-bar-Wbj">Search</div>
-        //         <p className="profile-9ub">Profile</p>
         //     </div>
         // </div>
     );
