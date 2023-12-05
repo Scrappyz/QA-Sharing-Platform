@@ -39,7 +39,9 @@ function Home() {
                         <Question votes={1261} answers={30} views={5230} question="Explain the concept of recursion and provide an example" tags={["computer-science"]} user={{name: "Fredrick Aquilino", profile: default_profile}} postDate={new Date("2023-12-5")} />
                         <Question votes={1600} answers={22} views={7300} question="Describe the differences between a stack and a queue data structure" tags={["computer-science", "data-structures"]} user={{name: "Trent Sullivan", profile: default_profile}} postDate={new Date("2023-7-21")} />
                         <Question votes={2100} answers={28} views={7800} question="What is the purpose of an API?" tags={["computer-science"]} user={{name: "Kory Lorete", profile: default_profile}} postDate={new Date("2023-8-15")} />
-                        <Question votes={2100} answers={28} views={7800} question="What is the significance of the Big O notation in algorithm analysis?" tags={["computer-science", "algorithms"]} user={{name: "Alexis Baldedara", profile: default_profile}} postDate={new Date("2023-8-29")} />
+                        <Question votes={1500} answers={20} views={5600} question="What is the significance of the Big O notation in algorithm analysis?" tags={["computer-science", "algorithms"]} user={{name: "Alexis Baldedara", profile: default_profile}} postDate={new Date("2023-8-29")} />
+                        <Question votes={328} answers={8} views={933} question="Solve the equation: 3x+5x-2 = 0" tags={["mathematics", "algebra"]} user={{name: "Darryl Matthew", profile: default_profile}} postDate={new Date("2023-5-26")} />
+                        <Question votes={1400} answers={11} views={6200} question="What is the process of photosynthesis, and what role does it play in plants?" tags={["biology"]} user={{name: "Darryl Matthew", profile: default_profile}} postDate={new Date("2023-6-6")} />
                     </div>
                 </div>
                 <Sidebar buttons={{
