@@ -14,13 +14,16 @@ function Home() {
             <div className="main-container">
                 <Sidebar buttons={{
                     Home: {
-                        path: "/"
+                        path: "/",
+                        icon: "./assets/icons/home.png"
                     }, 
                     User: {
-                        path: null
+                        path: "/profile",
+                        icon: "./assets/icons/users.png"
                     },
                     Saves: {
-                        path: null
+                        path: null,
+                        icon: "./assets/icons/saves.png"
                     }
                 }} />
                 <div className="content-container">

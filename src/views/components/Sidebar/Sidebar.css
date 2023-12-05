@@ -34,3 +34,7 @@
     border-width: 10px;
     border-color: #3a3b3c;
 }
+
+.sidebar-container .btn-list .btn .icon {
+    width: 10%;
+}

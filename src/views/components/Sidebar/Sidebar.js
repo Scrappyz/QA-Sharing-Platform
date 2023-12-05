@@ -9,14 +9,10 @@ function Sidebar(props) {
     return (
         <div className="sidebar-container">
             <div className="btn-list">
-                {Object.entries(props.buttons).map(([key, val]) => <button className="btn" onClick={() => navigate(val.path)}>{key}</button>)}
+                {Object.entries(props.buttons).map(([key, val]) => <button className="btn" onClick={() => navigate(val.path)}><img className="icon" src={val.icon} /> {key}</button>)}
             </div>
         </div>
     )
-}
-
-Sidebar.propTypes = {
-    buttons: PropTypes.array
 }
 
 export default Sidebar;
