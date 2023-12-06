@@ -19,14 +19,18 @@ function Register() {
         }))
     }
 
-    const sendCode = (e) => {
-        e.preventDefault();
-        setForm({
-            email: "",
-            username: "",
-            newPassword: "",
-            confirmPassword: ""
-        })
+    const sendCode = () => {
+        if(form.email.length === 0) {
+            alert("[ERROR] Email cannot be empty");
+        } else if(form.username.length === 0) {
+            alert("[ERROR] Username cannot be empty");
+        } else if(form.newPassword.length === 0) {
+            alert("[ERROR] New password cannot be empty");
+        } else if(form.confirmPassword.length === 0) {
+            alert("[ERROR] Confirm password cannot be empty");
+        } else {
+            navigate("/verifycode");
+        }
     }
 
     return (
@@ -44,13 +48,13 @@ function Register() {
                 </div>
                 <div className="new-password">
                     <p className="label">New password</p>
-                    <input className="value" type="text" name="newPassword" value={form.newPassword} onChange={handleChange} />
+                    <input className="value" type="password" name="newPassword" value={form.newPassword} onChange={handleChange} />
                 </div>
                 <div className="confirm-password">
                     <p className="label">Confirm password</p>
-                    <input className="value" type="text" name="confirmPassword" value={form.confirmPassword} onChange={handleChange} />
+                    <input className="value" type="password" name="confirmPassword" value={form.confirmPassword} onChange={handleChange} />
                 </div>
-                <button className="send-code" onClick={() => navigate("/verifycode")}>Send code</button>
+                <button className="send-code" onClick={sendCode}>Send code</button>
             </div>
             <div className="already-have-account">
                 <span>Already have an account?&nbsp;</span>
