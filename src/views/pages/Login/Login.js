@@ -7,7 +7,7 @@ function Login() {
 
     return (
         <div className="login-frame">
-            <img className="logo" src="/assets/logo-aMF.png"/>
+            <img className="logo" src="./assets/logo.png"/>
             <p className="label">Sign in to [Website Name]</p>
             <div className="form-container">
                 <div className="email">
