@@ -9,7 +9,7 @@ function Home() {
     const navigate = useNavigate();
     const default_profile = "./assets/profile/defaultProfile.png";
     return (
-        <div className="frame">
+        <div className="home-frame">
             <Header />
             <div className="main-container">
                 <Sidebar buttons={{
