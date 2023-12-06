@@ -91,6 +91,7 @@ body {
   background-color: #18191a;
   border-radius: 0.5rem;
   flex-shrink: 0;
+  color: white;
 }
 
 .verify-code-frame .form-container .verification-code .value:focus {
