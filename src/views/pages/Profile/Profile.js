@@ -7,7 +7,7 @@ function Profile() {
     const profile_pic = "../../../assets/profile/defaultProfile.png";
     
     return (
-        <div className="frame">
+        <div className="profile-frame">
             <Header profilePic={profile_pic} />
             <div className="main-container">
                 <Sidebar buttons={{
