@@ -1,22 +1,24 @@
 import React from "react";
 import "./VerifyCode.css";
+import { useNavigate } from "react-router-dom";
 
 function VerifyCode() {
+    const navigate = useNavigate();
+
     return (
-        <div className="VerifyCode-uny">
-            <img className="logo-dU5" src="./assets/logo-xxy.png"/>
-            <p className="an-email-containing-the-verification-code-has-been-sent-to-your-email-9xD">An email containing the verification code has been sent to [Your Email]</p>
-            <div className="form-R93">
-                <div className="verfification-code-upu">
-                <p className="text-G9f">Verification code</p>
-                <div className="shape-nth">
+        <div className="verify-code-frame">
+            <img className="logo" src="./assets/logo.png"/>
+            <p className="label">An email containing the verification code has been sent to [Your Email]</p>
+            <div className="form-container">
+                <div className="verification-code">
+                    <p className="label">Verification code</p>
+                    <input className="value" type="text" placeholder="XXXXXX"/>
                 </div>
-                </div>
-                <div className="send-code-K7w">Verify</div>
+                <button className="verify-btn" onClick={() => navigate("/")}>Verify</button>
             </div>
-            <div className="already-have-account-wf7">
-                <span className="already-have-account-wf7-sub-0">Already have an account? </span>
-                <span className="already-have-account-wf7-sub-1">Sign in</span>
+            <div className="already-have-account">
+                <span>Already have an account?&nbsp;</span>
+                <span className="txt" onClick={() => navigate("/login")}>Sign in</span>
             </div>
         </div>
     );

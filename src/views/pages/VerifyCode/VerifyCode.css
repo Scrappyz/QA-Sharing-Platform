@@ -1,10 +1,10 @@
-
 html {
 	font-size:62.5%;
 }
 * {
 	margin: 0;
 	padding: 0;
+  font-family: 'Cascadia Code', Consolas, Calibri;
 }
 ul, li {
 	list-style: none;
@@ -13,19 +13,24 @@ input {
 	border: none;
 }
 body {
-  width: 128rem;
-}.VerifyCode-uny {
-  box-sizing: border-box;
-  padding: 11.7rem 44.2rem 26.5rem 44.2rem;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  background-color: #18191a;
+  padding: 0;
+  margin: 0;
 }
-.VerifyCode-uny .logo-dU5 {
+
+.verify-code-frame {
+  padding: 11.7rem 55rem 26.5rem 55rem;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  background-color: #18191a;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.verify-code-frame .logo {
   margin: 0rem 0rem 2.3rem 0.1rem;
   width: 8.1rem;
   height: 8.7rem;
@@ -33,18 +38,19 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.VerifyCode-uny .an-email-containing-the-verification-code-has-been-sent-to-your-email-9xD {
+
+.verify-code-frame .label {
   margin-bottom: 1.5rem;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 300;
   line-height: 1.2125;
   color: #ffffff;
-  font-family: Inter, 'Source Sans Pro';
+  
   white-space: nowrap;
   flex-shrink: 0;
 }
-.VerifyCode-uny .form-R93 {
+.verify-code-frame .form-container {
   margin: 0rem 3rem 1.7rem 3rem;
   box-sizing: border-box;
   padding: 2.1rem 2rem 2.4rem 2rem;
@@ -56,7 +62,7 @@ body {
   border-radius: 1rem;
   flex-shrink: 0;
 }
-.VerifyCode-uny .form-R93 .verfification-code-upu {
+.verify-code-frame .form-container .verification-code {
   margin-bottom: 2.6rem;
   width: 100%;
   display: flex;
@@ -64,19 +70,20 @@ body {
   border-radius: 0.5rem;
   flex-shrink: 0;
 }
-.VerifyCode-uny .form-R93 .verfification-code-upu .text-G9f {
+.verify-code-frame .form-container .verification-code .label {
   margin-bottom: 0.6rem;
   width: 100%;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 300;
   line-height: 1.2125;
   color: #ffffff;
-  font-family: Inter, 'Source Sans Pro';
+  
   white-space: nowrap;
   flex-shrink: 0;
 }
-.VerifyCode-uny .form-R93 .verfification-code-upu .shape-nth {
+
+.verify-code-frame .form-container .verification-code .value {
   width: 100%;
   height: 3rem;
   border: solid 0.1rem #3a3b3c;
@@ -85,7 +92,12 @@ body {
   border-radius: 0.5rem;
   flex-shrink: 0;
 }
-.VerifyCode-uny .form-R93 .send-code-K7w {
+
+.verify-code-frame .form-container .verification-code .value:focus {
+  outline: 2px solid #3572af;
+}
+
+.verify-code-frame .form-container .verify-btn {
   width: 100%;
   height: 3rem;
   cursor: pointer;
@@ -94,7 +106,7 @@ body {
   font-weight: 400;
   line-height: 1.2125;
   color: #ffffff;
-  font-family: Inter, 'Source Sans Pro';
+  
   white-space: nowrap;
   display: flex;
   align-items: center;
@@ -105,7 +117,7 @@ body {
   border-radius: 0.5rem;
   flex-shrink: 0;
 }
-.VerifyCode-uny .already-have-account-wf7 {
+.verify-code-frame .already-have-account {
   margin: 0 3rem;
   width: calc(100% - 6rem);
   height: 2.9rem;
@@ -114,7 +126,7 @@ body {
   font-weight: 400;
   line-height: 1.2125;
   color: #ffffff;
-  font-family: Inter, 'Source Sans Pro';
+  
   white-space: nowrap;
   display: flex;
   align-items: center;
@@ -123,10 +135,10 @@ body {
   border-radius: 0.6rem;
   flex-shrink: 0;
 }
-.VerifyCode-uny .already-have-account-wf7 .already-have-account-wf7-sub-1 {
+.verify-code-frame .already-have-account .txt {
   font-size: 1.1rem;
   font-weight: 700;
   line-height: 1.2125;
   color: #ffffff;
-  font-family: Inter, 'Source Sans Pro';
+  cursor: pointer;
 }
