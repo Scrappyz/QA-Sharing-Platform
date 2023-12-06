@@ -126,6 +126,7 @@ body {
 .login-frame .form-container .password .value:focus {
   outline: 2px solid #3572af;
 }
+
 .login-frame .form-container .sign-in {
   margin-left: 0.3rem;
   width: 29.6rem;

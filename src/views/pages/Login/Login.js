@@ -17,7 +17,7 @@ function Login() {
 
     const signIn = () => {
         if(form.email.length === 0 || form.password.length === 0) {
-            alert("bad");
+            alert("[ERROR] Email or password cannot be empty");
             return;
         }
         navigate("/");
