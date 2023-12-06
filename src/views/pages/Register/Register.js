@@ -1,9 +1,9 @@
 import React from "react";
-import "./CreateAccount.css";
+import "./Register.css";
 
-function CreateAccount() {
+function Register() {
     return (
-        <div className="CreateAccount-edP">
+        <div className="Register-edP">
             <img className="logo-ALq" src="./assets/logo.png"/>
             <p className="sign-up-to-our-website-name-HgM">Sign up to our [Website Name]</p>
             <div className="form-C2d">
@@ -37,4 +37,4 @@ function CreateAccount() {
     );
 }
 
-export default CreateAccount;
+export default Register;

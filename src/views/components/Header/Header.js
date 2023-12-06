@@ -12,7 +12,7 @@ function Header(props) {
                 <input type="text" placeholder="Search" />
             </div>
             <div className="button-container">
-                <button className="profile" onClick={() => navigate("/profile")}><img src={props.profilePic} className="profile-pic" /></button>
+                <button className="profile" onClick={() => navigate("/login")}><img src={props.profilePic} className="profile-pic" /></button>
             </div>
         </header>
     );

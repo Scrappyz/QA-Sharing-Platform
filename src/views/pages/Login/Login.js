@@ -3,7 +3,7 @@ import "./Login.css";
 
 function Login() {
     return (
-        <div className="Login-hGM">
+        <div className="frame">
             <img className="logo-Pus" src="/assets/logo-aMF.png"/>
             <p className="sign-in-to-website-name-HkM">Sign in to [Website Name]</p>
             <div className="form-ktq">
