@@ -1,10 +1,10 @@
-
 html {
 	font-size:62.5%;
 }
 * {
 	margin: 0;
 	padding: 0;
+  font-family: 'Cascadia Code', Consolas, Calibri;
 }
 ul, li {
 	list-style: none;
@@ -13,19 +13,22 @@ input {
 	border: none;
 }
 body {
-  width: 128rem;
-}.Register-edP {
-  box-sizing: border-box;
-  padding: 5.2rem 47.2rem 15.3rem 47.2rem;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  background-color: #18191a;
+  padding: 0;
+  margin: 0;
 }
-.Register-edP .logo-ALq {
+
+.frame {
+  width: 100%;
+  background-color: #18191a;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 9.5rem 60rem 20.6rem 60rem;
+}
+
+.frame .logo {
   margin: 0rem 0rem 1.4rem 0.1rem;
   width: 8.1rem;
   height: 8.7rem;
@@ -33,18 +36,18 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.Register-edP .sign-up-to-our-website-name-HgM {
+.frame .label {
   margin: 0rem 0rem 1.5rem 0.1rem;
   text-align: center;
   font-size: 1.8854rem;
   font-weight: 400;
   line-height: 1.2125;
   color: #ffffff;
-  font-family: Inter, 'Source Sans Pro';
+  
   white-space: nowrap;
   flex-shrink: 0;
 }
-.Register-edP .form-C2d {
+.frame .form-container {
   margin-bottom: 1.5rem;
   box-sizing: border-box;
   padding: 2.1rem 2rem 2.2rem 1.7rem;
@@ -56,32 +59,38 @@ body {
   border-radius: 1rem;
   flex-shrink: 0;
 }
-.Register-edP .form-C2d .email-79b {
+.frame .form-container .email {
   margin: 0rem 0rem 1rem 0.3rem;
   width: 29.6rem;
   border-radius: 0.5rem;
   flex-shrink: 0;
 }
-.Register-edP .form-C2d .email-79b .text-3ow {
+.frame .form-container .email .label {
   margin-bottom: 0.6rem;
   width: 100%;
-  text-align: center;
+  text-align: left;
   font-size: 1.2rem;
   font-weight: 300;
   line-height: 1.2125;
   color: #ffffff;
-  font-family: Inter, 'Source Sans Pro';
+  
   white-space: nowrap;
 }
-.Register-edP .form-C2d .email-79b .shape-AtZ {
+.frame .form-container .email .value {
   width: 100%;
   height: 3rem;
   border: solid 0.1rem #3a3b3c;
   box-sizing: border-box;
   background-color: #18191a;
   border-radius: 0.5rem;
+  color: white;
 }
-.Register-edP .form-C2d .username-tpZ {
+
+.frame .form-container .email .value:focus {
+  outline: 2px solid #3572af;
+}
+
+.frame .form-container .username {
   margin-bottom: 1.2rem;
   box-sizing: border-box;
   padding-left: 0.15rem;
@@ -91,19 +100,19 @@ body {
   border-radius: 0.5rem;
   flex-shrink: 0;
 }
-.Register-edP .form-C2d .username-tpZ .text-dXF {
+.frame .form-container .username .label {
   margin-bottom: 0.6rem;
   width: 100%;
-  text-align: center;
+  text-align: left;
   font-size: 1.2rem;
   font-weight: 300;
   line-height: 1.2125;
   color: #ffffff;
-  font-family: Inter, 'Source Sans Pro';
+  
   white-space: nowrap;
   flex-shrink: 0;
 }
-.Register-edP .form-C2d .username-tpZ .shape-xZX {
+.frame .form-container .username .value {
   margin-left: 0.15rem;
   width: 29.6rem;
   height: 3rem;
@@ -112,8 +121,14 @@ body {
   background-color: #18191a;
   border-radius: 0.5rem;
   flex-shrink: 0;
+  color: white;
 }
-.Register-edP .form-C2d .new-password-ruo {
+
+.frame .form-container .username .value:focus {
+  outline: 2px solid #3572af;
+}
+
+.frame .form-container .new-password {
   margin-bottom: 1rem;
   box-sizing: border-box;
   padding-left: 0.2rem;
@@ -123,19 +138,19 @@ body {
   border-radius: 0.5rem;
   flex-shrink: 0;
 }
-.Register-edP .form-C2d .new-password-ruo .text-1Xo {
+.frame .form-container .new-password .label {
   margin-bottom: 0.6rem;
   width: 100%;
-  text-align: center;
+  text-align: left;
   font-size: 1.2rem;
   font-weight: 300;
   line-height: 1.2125;
   color: #ffffff;
-  font-family: Inter, 'Source Sans Pro';
+  
   white-space: nowrap;
   flex-shrink: 0;
 }
-.Register-edP .form-C2d .new-password-ruo .shape-La5 {
+.frame .form-container .new-password .value {
   margin-left: 0.1rem;
   width: 29.6rem;
   height: 3rem;
@@ -144,8 +159,14 @@ body {
   background-color: #18191a;
   border-radius: 0.5rem;
   flex-shrink: 0;
+  color: white;
 }
-.Register-edP .form-C2d .confirm-password-EfT {
+
+.frame .form-container .new-password .value:focus {
+  outline: 2px solid #3572af;
+}
+
+.frame .form-container .confirm-password {
   margin-bottom: 2.3rem;
   box-sizing: border-box;
   padding-left: 0.05rem;
@@ -155,19 +176,19 @@ body {
   border-radius: 0.5rem;
   flex-shrink: 0;
 }
-.Register-edP .form-C2d .confirm-password-EfT .text-BKo {
+.frame .form-container .confirm-password .label {
   margin-bottom: 0.6rem;
   width: 100%;
-  text-align: center;
+  text-align: left;
   font-size: 1.2rem;
   font-weight: 300;
   line-height: 1.2125;
   color: #ffffff;
-  font-family: Inter, 'Source Sans Pro';
+  
   white-space: nowrap;
   flex-shrink: 0;
 }
-.Register-edP .form-C2d .confirm-password-EfT .shape-v2V {
+.frame .form-container .confirm-password .value {
   margin-left: 0.25rem;
   width: 29.6rem;
   height: 3rem;
@@ -176,8 +197,14 @@ body {
   background-color: #18191a;
   border-radius: 0.5rem;
   flex-shrink: 0;
+  color: white;
 }
-.Register-edP .form-C2d .send-code-dBo {
+
+.frame .form-container .confirm-password .value:focus {
+  outline: 2px solid #3572af;
+}
+
+.frame .form-container .send-code {
   margin-left: 0.3rem;
   width: 29.6rem;
   height: 3rem;
@@ -187,7 +214,7 @@ body {
   font-weight: 400;
   line-height: 1.2125;
   color: #ffffff;
-  font-family: Inter, 'Source Sans Pro';
+  
   white-space: nowrap;
   display: flex;
   align-items: center;
@@ -198,7 +225,7 @@ body {
   border-radius: 0.5rem;
   flex-shrink: 0;
 }
-.Register-edP .already-have-account-dLD {
+.frame .already-have-account {
   width: 100%;
   height: 2.9rem;
   text-align: center;
@@ -206,7 +233,7 @@ body {
   font-weight: 400;
   line-height: 1.2125;
   color: #ffffff;
-  font-family: Inter, 'Source Sans Pro';
+  
   white-space: nowrap;
   display: flex;
   align-items: center;
@@ -215,10 +242,10 @@ body {
   border-radius: 0.6rem;
   flex-shrink: 0;
 }
-.Register-edP .already-have-account-dLD .already-have-account-dLD-sub-1 {
+.frame .already-have-account .txt {
   font-size: 1.1rem;
   font-weight: 700;
   line-height: 1.2125;
   color: #ffffff;
-  font-family: Inter, 'Source Sans Pro';
+  cursor: pointer;
 }
