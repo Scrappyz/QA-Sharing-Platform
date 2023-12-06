@@ -6,7 +6,7 @@ function Login() {
     const navigate = useNavigate();
 
     return (
-        <div className="frame">
+        <div className="login-frame">
             <img className="logo" src="/assets/logo-aMF.png"/>
             <p className="label">Sign in to [Website Name]</p>
             <div className="form-container">
