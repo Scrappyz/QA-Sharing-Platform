@@ -6,6 +6,7 @@ html {
 * {
 	margin: 0;
 	padding: 0;
+  font-family: 'Cascadia Code', Consolas, Calibri;
 }
 
 ul, li {
@@ -19,10 +20,6 @@ input {
 body {
   margin: 0;
   padding: 0;
-}
-
-* {
-  font-family: 'Cascadia Code', Consolas, Calibri;
 }
 
 .frame {
