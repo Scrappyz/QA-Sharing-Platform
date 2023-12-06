@@ -50,7 +50,7 @@ function Register() {
                     <p className="label">Confirm password</p>
                     <input className="value" type="text" name="confirmPassword" value={form.confirmPassword} onChange={handleChange} />
                 </div>
-                <button className="send-code" onClick={sendCode}>Send code</button>
+                <button className="send-code" onClick={() => navigate("/verifycode")}>Send code</button>
             </div>
             <div className="already-have-account">
                 <span>Already have an account?&nbsp;</span>
