@@ -5,7 +5,7 @@ import Sidebar from "../../components/Sidebar/Sidebar.js";
 
 function CreatePost() {
     return (
-        <div className="frame">
+        <div className="create-post-frame">
             <Header />
             <div className="main-container">
                 <Sidebar buttons={{

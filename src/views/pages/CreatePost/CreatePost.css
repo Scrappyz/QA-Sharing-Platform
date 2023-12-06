@@ -13,10 +13,22 @@ input {
 	border: none;
 }
 body {
-  width: 128rem;
+  padding: 0;
+  margin: 0;
 }
 
-.frame .main-container {
+.create-post-frame {
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.create-post-frame .main-container {
   width: 100%;
   height: 100%;
   position: relative;
@@ -26,7 +38,7 @@ body {
   align-items: flex-start;
 }
 
-.frame .main-container .content-container {
+.create-post-frame .main-container .content-container {
   box-sizing: border-box;
   width: 60%;
   height: 100%;
@@ -39,7 +51,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame .main-container .content-container .top-label {
+.create-post-frame .main-container .content-container .top-label {
   box-sizing: border-box;
   width: 100%;
   margin-top: 2rem;
@@ -49,7 +61,7 @@ body {
   text-align: center;
 }
 
-.frame .main-container .content-container .title-container {
+.create-post-frame .main-container .content-container .title-container {
   margin: 0 4rem 1.5rem 4rem;
   box-sizing: border-box;
   padding-bottom: 0rem;
@@ -57,7 +69,7 @@ body {
   border-radius: 0.5rem;
 }
 
-.frame .main-container .content-container .title-container .label {
+.create-post-frame .main-container .content-container .title-container .label {
   margin-bottom: 0.6904rem;
   width: 100%;
   text-align: left;
@@ -68,7 +80,7 @@ body {
   white-space: nowrap;
 }
 
-.frame .main-container .content-container .title-container .title {
+.create-post-frame .main-container .content-container .title-container .title {
   margin-left: 0.1109rem;
   width: 100%;
   height: 2.8706rem;
@@ -79,12 +91,12 @@ body {
   border-radius: 0.5rem;
 }
 
-.frame .main-container .content-container .body-container {
+.create-post-frame .main-container .content-container .body-container {
   margin: 1.5rem 4rem 1.5rem 4rem;
   width: 90%;
 }
 
-.frame .main-container .content-container .body-container .label {
+.create-post-frame .main-container .content-container .body-container .label {
   margin-bottom: 0.6904rem;
   width: 100%;
   text-align: left;
@@ -95,7 +107,7 @@ body {
   white-space: nowrap;
 }
 
-.frame .main-container .content-container .body-container .buttons-container {
+.create-post-frame .main-container .content-container .body-container .buttons-container {
   margin: 0rem 0rem 0.205rem 0.2rem;
   box-sizing: border-box;
   padding: 0.187rem 32.232rem 0.241rem 0.767rem;
@@ -105,7 +117,7 @@ body {
   background-color: #18191a;
 }
 
-.frame .main-container .content-container .body-container .buttons-container .heading-btn {
+.create-post-frame .main-container .content-container .body-container .buttons-container .heading-btn {
   margin: 0.402rem 1.639rem 0rem 0rem;
   width: 2.0165rem;
   height: 2rem;
@@ -117,7 +129,7 @@ body {
   cursor: pointer;
 }
 
-.frame .main-container .content-container .body-container .buttons-container .bold-btn {
+.create-post-frame .main-container .content-container .body-container .buttons-container .bold-btn {
   margin: 0.402rem 1.639rem 0rem 0rem;
   width: 1.4165rem;
   height: 2rem;
@@ -129,7 +141,7 @@ body {
   cursor: pointer;
 }
 
-.frame .main-container .content-container .body-container .buttons-container .italic-btn {
+.create-post-frame .main-container .content-container .body-container .buttons-container .italic-btn {
   margin: 0.338rem 3.435rem 0rem 0rem;
   width: 1.8rem;
   height: 2.0336rem;
@@ -141,7 +153,7 @@ body {
   cursor: pointer;
 }
 
-.frame .main-container .content-container .body-container .buttons-container .link-btn {
+.create-post-frame .main-container .content-container .body-container .buttons-container .link-btn {
   margin: 0.378rem 1.445rem 0rem 0rem;
   width: 2rem;
   height: 2rem;
@@ -153,7 +165,7 @@ body {
   cursor: pointer;
 }
 
-.frame .main-container .content-container .body-container .buttons-container .image-btn {
+.create-post-frame .main-container .content-container .body-container .buttons-container .image-btn {
   margin: 0.19rem 6.51rem 0rem 0rem;
   width: 2rem;
   height: 2rem;
@@ -162,7 +174,7 @@ body {
   cursor: pointer;
 }
 
-.frame .main-container .content-container .body-container .buttons-container .numbering-btn {
+.create-post-frame .main-container .content-container .body-container .buttons-container .numbering-btn {
   margin: 0rem 1.524rem 0.083rem 0rem;
   width: 2.5135rem;
   height: 1.7438rem;
@@ -173,7 +185,7 @@ body {
   cursor: pointer;
 }
 
-.frame .main-container .content-container .body-container .buttons-container .bullet-btn {
+.create-post-frame .main-container .content-container .body-container .buttons-container .bullet-btn {
   margin: 0rem 1.776rem 0.164rem 0rem;
   width: 2rem;
   height: 1.7rem;
@@ -184,7 +196,7 @@ body {
   cursor: pointer;
 }
 
-.frame .main-container .content-container .body-container .buttons-container .undo-btn {
+.create-post-frame .main-container .content-container .body-container .buttons-container .undo-btn {
   margin: 0rem 1.437rem 0rem 0rem;
   width: 2rem;
   height: 1.8rem;
@@ -196,7 +208,7 @@ body {
   cursor: pointer;
 }
 
-.frame .main-container .content-container .body-container .buttons-container .redo-btn {
+.create-post-frame .main-container .content-container .body-container .buttons-container .redo-btn {
   margin: 0rem 1.437rem 0rem 0rem;
   width: 2rem;
   height: 1.8rem;
@@ -208,7 +220,7 @@ body {
   cursor: pointer;
 }
 
-.frame .main-container .content-container .body-container .text-body {
+.create-post-frame .main-container .content-container .body-container .text-body {
   margin-left: 0.2rem;
   width: 100%;
   height: 17.2237rem;
@@ -219,13 +231,13 @@ body {
   border-radius: 0.5rem;
 }
 
-.frame .main-container .content-container .tags-container {
+.create-post-frame .main-container .content-container .tags-container {
   margin: 1.5rem 4rem 1.5rem 4rem;
   width: 90%;
   border-radius: 0.5rem;
 }
 
-.frame .main-container .content-container .tags-container .label {
+.create-post-frame .main-container .content-container .tags-container .label {
   margin-bottom: 0.6904rem;
   width: 100%;
   text-align: left;
@@ -236,7 +248,7 @@ body {
   white-space: nowrap;
 }
 
-.frame .main-container .content-container .tags-container .tags {
+.create-post-frame .main-container .content-container .tags-container .tags {
   margin-left: 0.1109rem;
   width: 100%;
   height: 2.8706rem;
@@ -247,7 +259,7 @@ body {
   border-radius: 0.5rem;
 }
 
-.frame .main-container .content-container .review-question-btn {
+.create-post-frame .main-container .content-container .review-question-btn {
   margin-left: 54.8rem;
   width: 14.6rem;
   height: 3.7933rem;
