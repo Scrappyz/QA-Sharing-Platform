@@ -18,16 +18,16 @@ body {
 }
 
 .frame {
-  box-sizing: border-box;
-  padding: 9.5rem 47.2rem 20.6rem 47.2rem;
   width: 100%;
-  overflow: hidden;
-  position: relative;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
   background-color: #18191a;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 9.5rem 60rem 20.6rem 60rem;
 }
+
 .frame .logo-Pus {
   margin: 0rem 0rem 2.4rem 0.1rem;
   width: 8.1rem;
