@@ -1,9 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./Login.css";
 import { useNavigate } from 'react-router-dom';
 
 function Login() {
     const navigate = useNavigate();
+    const [form, setForm] = useState({
+        email: "",
+        password: ""
+    });
+
+    const handleChange = (e) => {
+        setForm((prev) => ({
+            ...prev, [e.target.name]: e.target.value
+        }))
+    }
+
+    const signIn = () => {
+        if(form.email.length === 0 || form.password.length === 0) {
+            alert("bad");
+            return;
+        }
+        navigate("/");
+    }
 
     return (
         <div className="login-frame">
@@ -12,13 +30,13 @@ function Login() {
             <div className="form-container">
                 <div className="email">
                     <p className="label">Email address</p>
-                    <input type="text" className="value" />
+                    <input type="text" className="value" name="email" value={form.email} onChange={handleChange} />
                 </div>
                 <div className="password">
                     <p className="label">Password</p>
-                    <input type="text" className="value" />
+                    <input type="text" className="value" name='password' value={form.password} onChange={handleChange} />
                 </div>
-                <button className="sign-in" onClick={() => navigate("/")}>Sign in</button>
+                <button className="sign-in" onClick={signIn}>Sign in</button>
             </div>
             <div className="verify-container">
                 <span>New User?&nbsp;</span>
