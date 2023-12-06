@@ -18,7 +18,7 @@ function Login() {
                     <p className="label">Password</p>
                     <input type="text" className="value" />
                 </div>
-                <button className="sign-in">Sign in</button>
+                <button className="sign-in" onClick={() => navigate("/")}>Sign in</button>
             </div>
             <div className="verify-container">
                 <span>New User?&nbsp;</span>
