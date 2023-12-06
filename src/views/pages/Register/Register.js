@@ -30,7 +30,7 @@ function Register() {
     }
 
     return (
-        <div className="frame">
+        <div className="register-frame">
             <img className="logo" src="./assets/logo.png"/>
             <p className="label">Sign up to our [Website Name]</p>
             <div className="form-container">
