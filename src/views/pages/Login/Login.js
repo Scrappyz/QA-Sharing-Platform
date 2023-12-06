@@ -16,11 +16,13 @@ function Login() {
     }
 
     const signIn = () => {
-        if(form.email.length === 0 || form.password.length === 0) {
-            alert("[ERROR] Email or password cannot be empty");
-            return;
+        if(form.email.length === 0) {
+            alert("[ERROR] Email cannot be empty");
+        } else if(form.password.length === 0) {
+            alert("[ERROR] Password cannot be empty");
+        } else {
+            navigate("/");
         }
-        navigate("/");
     }
 
     return (
@@ -34,7 +36,7 @@ function Login() {
                 </div>
                 <div className="password">
                     <p className="label">Password</p>
-                    <input type="text" className="value" name='password' value={form.password} onChange={handleChange} />
+                    <input type="password" className="value" name='password' value={form.password} onChange={handleChange} />
                 </div>
                 <button className="sign-in" onClick={signIn}>Sign in</button>
             </div>
