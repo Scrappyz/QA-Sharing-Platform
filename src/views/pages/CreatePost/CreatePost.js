@@ -1,9 +1,9 @@
 import React from "react";
-import "./AskQuestion.css";
+import "./CreatePost.css";
 import Header from "../../components/Header/Header.js";
 import Sidebar from "../../components/Sidebar/Sidebar.js";
 
-function AskQuestion() {
+function CreatePost() {
     return (
         <div className="frame">
             <Header />
@@ -57,4 +57,4 @@ function AskQuestion() {
     );
 }
 
-export default AskQuestion;
+export default CreatePost;

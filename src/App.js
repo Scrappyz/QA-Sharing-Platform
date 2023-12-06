@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import Home from "./views/pages/Home/Home.js";
 import Profile from "./views/pages/Profile/Profile.js";
-import AskQuestion from "./views/pages/AskQuestion/AskQuestion.js";
+import CreatePost from "./views/pages/CreatePost/CreatePost.js";
 
 function App() {
     return (
@@ -10,7 +10,7 @@ function App() {
             <Routes>
                 <Route index element={<Home />} />
                 <Route path="/profile" element={<Profile />} />
-                <Route path="/askquestion" element={<AskQuestion />} />
+                <Route path="/createpost" element={<CreatePost />} />
             </Routes>
         </BrowserRouter>   
     )

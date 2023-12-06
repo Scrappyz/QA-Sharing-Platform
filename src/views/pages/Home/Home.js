@@ -45,8 +45,8 @@ function Home() {
                     </div>
                 </div>
                 <Sidebar buttons={{
-                    "Ask Question": {
-                        path: "/askquestion"
+                    "Create Post": {
+                        path: "/createpost"
                     }
                 }} />
             </div>
