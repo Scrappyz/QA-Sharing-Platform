@@ -22,6 +22,8 @@ function Register() {
     const sendCode = () => {
         if(form.email.length === 0) {
             alert("[ERROR] Email cannot be empty");
+        } else if(!form.email.includes("@")) {
+            alert("[ERROR] Not a valid email address");
         } else if(form.username.length === 0) {
             alert("[ERROR] Username cannot be empty");
         } else if(form.newPassword.length === 0) {
