@@ -22,7 +22,7 @@ function Register() {
     const sendCode = () => {
         if(form.email.length === 0) {
             alert("[ERROR] Email cannot be empty");
-        } else if(!form.email.includes("@")) {
+        } else if(!RegExp("[a-zA-Z0-9]+@").test(form.email)) {
             alert("[ERROR] Not a valid email address");
         } else if(form.username.length === 0) {
             alert("[ERROR] Username cannot be empty");
