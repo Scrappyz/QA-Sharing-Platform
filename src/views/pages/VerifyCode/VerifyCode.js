@@ -1,12 +1,14 @@
 import React, {useState} from "react";
 import "./VerifyCode.css";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 
 function VerifyCode() {
     const navigate = useNavigate();
+    const location = useLocation();
     const [form, setForm] = useState({
         code: ""
     });
+    const email = location.state.email;
 
     const handleChange = (e) => {
         setForm((prev) => ({
@@ -32,7 +34,7 @@ function VerifyCode() {
     return (
         <div className="verify-code-frame">
             <img className="logo" src="./assets/logo.png"/>
-            <p className="label">An email containing the verification code has been sent to [Your Email]</p>
+            <p className="label">An email containing the verification code has been sent to {email}</p>
             <div className="form-container">
                 <div className="verification-code">
                     <p className="label">Verification code</p>

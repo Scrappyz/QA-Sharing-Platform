@@ -31,7 +31,7 @@ function Register() {
         } else if(form.confirmPassword.length === 0) {
             alert("[ERROR] Confirm password cannot be empty");
         } else {
-            navigate("/verifycode");
+            navigate("/verifycode", {state: {email: form.email}});
         }
     }
 
