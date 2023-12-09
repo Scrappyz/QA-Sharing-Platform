@@ -28,7 +28,7 @@ function Home() {
                 }} />
                 <div className="content-container">
                     <div className="menu-container">
-                        <div className="top-questions">Top Questions</div>
+                        <div className="top-questions">Top Post</div>
                         <ul className="filter-container">
                             <li className="btn">Trending</li>
                             <li className="btn">Top</li>
