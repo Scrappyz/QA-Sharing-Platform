@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
-import Home from "./views/pages/Home/Home.js";
-import Profile from "./views/pages/Profile/Profile.js";
-import CreatePost from "./views/pages/CreatePost/CreatePost.js";
-import Login from "./views/pages/Login/Login.js";
-import Register from "./views/pages/Register/Register.js";
-import VerifyCode from "./views/pages/VerifyCode/VerifyCode.js";
+import Home from "./views/pages/Home/Home.jsx";
+import Profile from "./views/pages/Profile/Profile.jsx";
+import CreatePost from "./views/pages/CreatePost/CreatePost.jsx";
+import Login from "./views/pages/Login/Login.jsx";
+import Register from "./views/pages/Register/Register.jsx";
+import VerifyCode from "./views/pages/VerifyCode/VerifyCode.jsx";
 
 function App() {
     return (
