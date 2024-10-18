@@ -1,0 +1,276 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.create-post-frame {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.create-post-frame .main-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+.create-post-frame .main-container .content-container {
+  box-sizing: border-box;
+  width: 60%;
+  height: 100%;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem #303030;
+  background-color: #18191a;
+  flex-shrink: 0;
+}
+
+.create-post-frame .main-container .content-container .top-label {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.create-post-frame .main-container .content-container .title-container {
+  margin: 0 4rem 1.5rem 4rem;
+  box-sizing: border-box;
+  padding-bottom: 0rem;
+  width: 90%;
+  border-radius: 0.5rem;
+}
+
+.create-post-frame .main-container .content-container .title-container .label {
+  margin-bottom: 0.6904rem;
+  width: 100%;
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.create-post-frame .main-container .content-container .title-container .title {
+  margin-left: 0.1109rem;
+  width: 100%;
+  height: 2.8706rem;
+  border: solid 0.1rem #3a3b3c;
+  box-sizing: border-box;
+  background-color: #242526;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.create-post-frame .main-container .content-container .body-container {
+  margin: 1.5rem 4rem 1.5rem 4rem;
+  width: 90%;
+}
+
+.create-post-frame .main-container .content-container .body-container .label {
+  margin-bottom: 0.6904rem;
+  width: 100%;
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.create-post-frame .main-container .content-container .body-container .buttons-container {
+  margin: 0rem 0rem 0.205rem 0.2rem;
+  box-sizing: border-box;
+  padding: 0.187rem 32.232rem 0.241rem 0.767rem;
+  display: flex;
+  align-items: center;
+  border: solid 0.1rem #3a3b3c;
+  background-color: #18191a;
+}
+
+.create-post-frame .main-container .content-container .body-container .buttons-container .heading-btn {
+  margin: 0.402rem 1.639rem 0rem 0rem;
+  width: 2.0165rem;
+  height: 2rem;
+  bottom: 0.2rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.create-post-frame .main-container .content-container .body-container .buttons-container .bold-btn {
+  margin: 0.402rem 1.639rem 0rem 0rem;
+  width: 1.4165rem;
+  height: 2rem;
+  bottom: 0.2rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.create-post-frame .main-container .content-container .body-container .buttons-container .italic-btn {
+  margin: 0.338rem 3.435rem 0rem 0rem;
+  width: 1.8rem;
+  height: 2.0336rem;
+  bottom: 0.1rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.create-post-frame .main-container .content-container .body-container .buttons-container .link-btn {
+  margin: 0.378rem 1.445rem 0rem 0rem;
+  width: 2rem;
+  height: 2rem;
+  bottom: 0.2rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.create-post-frame .main-container .content-container .body-container .buttons-container .image-btn {
+  margin: 0.19rem 6.51rem 0rem 0rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.create-post-frame .main-container .content-container .body-container .buttons-container .numbering-btn {
+  margin: 0rem 1.524rem 0.083rem 0rem;
+  width: 2.5135rem;
+  height: 1.7438rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.create-post-frame .main-container .content-container .body-container .buttons-container .bullet-btn {
+  margin: 0rem 1.776rem 0.164rem 0rem;
+  width: 2rem;
+  height: 1.7rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.create-post-frame .main-container .content-container .body-container .buttons-container .undo-btn {
+  margin: 0rem 1.437rem 0rem 0rem;
+  width: 2rem;
+  height: 1.8rem;
+  bottom: 0.1rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.create-post-frame .main-container .content-container .body-container .buttons-container .redo-btn {
+  margin: 0rem 1.437rem 0rem 0rem;
+  width: 2rem;
+  height: 1.8rem;
+  bottom: 0.1rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.create-post-frame .main-container .content-container .body-container .text-body {
+  margin-left: 0.2rem;
+  width: 100%;
+  height: 17.2237rem;
+  border: solid 0.1rem #3a3b3c;
+  box-sizing: border-box;
+  background-color: #242526;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.create-post-frame .main-container .content-container .tags-container {
+  margin: 1.5rem 4rem 1.5rem 4rem;
+  width: 90%;
+  border-radius: 0.5rem;
+}
+
+.create-post-frame .main-container .content-container .tags-container .label {
+  margin-bottom: 0.6904rem;
+  width: 100%;
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.create-post-frame .main-container .content-container .tags-container .tags {
+  margin-left: 0.1109rem;
+  width: 100%;
+  height: 2.8706rem;
+  border: solid 0.1rem #3a3b3c;
+  box-sizing: border-box;
+  background-color: #242526;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.create-post-frame .main-container .content-container .review-question-btn {
+  margin-left: 54.8rem;
+  width: 14.6rem;
+  height: 3.7933rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #e4e6eb;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem #3a3b3c;
+  box-sizing: border-box;
+  background-color: #18191a;
+  cursor: pointer;
+}
